@@ -1,17 +1,23 @@
 'use client';
-import { useEffect, useRef, useState } from "react";
-import { FaGlobe, FaBars } from "react-icons/fa";
+import { JSX, useEffect, useRef, useState } from "react";
+import { FaBars } from "react-icons/fa";
 import Image from "next/image";
 import logo from "@/assets/images/logo192.png";
-//import { useLocale, useTranslations } from "next-intl";
-import { useRouter } from "next/router";
-import { usePathname } from "next/navigation";
+import { useTranslations } from "next-intl";
+import { useRouter, usePathname } from "next/navigation";
 
-const languages = ["English", "Georgian", "Russian"] as const;
-type Language = (typeof languages)[number];
+type Language = {
+    name: string;
+    code: string;
+}
 
-const MainHeader: React.FC = () => {
-    const [language, setLanguage] = useState<Language>("Georgian");
+const languages: Language[] = [{ name: "English", code: "en" }, { name: "Georgian", code: "ka" }, { name: "Russian", code: "ru" }] as const;
+
+type MainHeaderProps = {
+    locale: string;
+};
+const MainHeader: React.FC<MainHeaderProps> = (props: MainHeaderProps) => {
+    const [language, setLanguage] = useState<Language>(languages.find(lang => lang.code === props.locale) || languages[1]);
     const [dropdownOpen, setDropdownOpen] = useState<boolean>(false);
     const [menuOpen, setMenuOpen] = useState<boolean>(false);
 
@@ -19,14 +25,14 @@ const MainHeader: React.FC = () => {
     const pathname = usePathname();
     //const currentLocale = useLocale();
 
-    //const t = useTranslations();
+    const t = useTranslations('MainHeader');
 
     const changeLanguage = (lang: Language) => {
         setLanguage(lang);
         setDropdownOpen(false);
         // Replace current locale with new one in path
         const segments = pathname.split('/');
-        segments[1] = lang; // Assumes URL structure like /en/...
+        segments[1] = lang.code; // Assumes URL structure like /en/...
 
         const newPath = segments.join('/');
         router.push(newPath);
@@ -52,44 +58,96 @@ const MainHeader: React.FC = () => {
     }, []);
 
     const image = <Image src={logo} alt="Logo" width={60} height={60} />;
+
+    const GeorgianFlag: JSX.Element = (
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 30" width="20" height="15">
+            <rect width="60" height="30" fill="#fff" />
+            <rect x="26" width="8" height="30" fill="#d40000" />
+            <rect y="11" width="60" height="8" fill="#d40000" />
+            <g fill="#d40000">
+                <path d="M7 4 h2 v3 h3 v2 h-3 v3 h-2 v-3 h-3 v-2 h3 z" />
+                <path d="M51 4 h2 v3 h3 v2 h-3 v3 h-2 v-3 h-3 v-2 h3 z" />
+                <path d="M7 18 h2 v3 h3 v2 h-3 v3 h-2 v-3 h-3 v-2 h3 z" />
+                <path d="M51 18 h2 v3 h3 v2 h-3 v3 h-2 v-3 h-3 v-2 h3 z" />
+            </g>
+        </svg>
+    );
+    const RussianFlag: JSX.Element = (
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 30" width="20" height="15">
+            <rect width="60" height="10" fill="#fff" />
+            <rect y="10" width="60" height="10" fill="#0033a0" />
+            <rect y="20" width="60" height="10" fill="#d52b1e" />
+        </svg>
+
+    );
+    const UsaFlag: JSX.Element = (
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7410 3900" width="20" height="15">
+            <rect width="7410" height="3900" fill="#b22234" />
+            <g fill="#fff">
+                <rect width="7410" height="300" y="300" />
+                <rect width="7410" height="300" y="900" />
+                <rect width="7410" height="300" y="1500" />
+                <rect width="7410" height="300" y="2100" />
+                <rect width="7410" height="300" y="2700" />
+                <rect width="7410" height="300" y="3300" />
+            </g>
+            <rect width="2964" height="2100" fill="#3c3b6e" />
+            <g fill="#fff">
+                {Array.from({ length: 9 }).map((_, row) => (
+                    Array.from({ length: row % 2 === 0 ? 6 : 5 }).map((_, col) => (
+                        <polygon
+                            key={`${row}-${col}`}
+                            points="140,0 54,218 225,84 55,84 226,218"
+                            transform={`translate(${col * 494 + (row % 2 === 0 ? 0 : 247)}, ${row * 233}) scale(0.4)`}
+                        />
+                    ))
+                ))}
+            </g>
+        </svg>
+    );
+
+
+
     return (
         <header className="sticky top-0 bg-black text-white flex justify-between items-center px-6 py-4 shadow-md z-50">
             <div className="hidden max-[950px]:flex items-center">
                 {image}
             </div>
-            <nav className="max-[950px]:hidden  flex flex-1 items-center justify-center space-x-6 relative">
+            <nav className="max-[950px]:hidden  flex flex-1 items-center justify-center space-x-6 relative pl-33.5">
                 <div className="flex space-x-6">
-                    <a href="#home" className="hover:text-gray-400">HOME</a>
-                    <a href="#about" className="hover:text-gray-400">ABOUT US</a>
-                    <a href="#classes" className="hover:text-gray-400">OUR CLASSES</a>
+                    <a href="#home" className="hover:text-gray-400">{t('home')}</a>
+                    <a href="#about" className="hover:text-gray-400">{t('about')}</a>
+                    <a href="#classes" className="hover:text-gray-400">{t('classes')}</a>
                 </div>
                 <div className="flex items-center">
                     {image}
                 </div>
                 <div className="flex space-x-6">
-                    <a href="#schedule" className="hover:text-gray-400">SCHEDULE</a>
-                    <a href="#gallery" className="hover:text-gray-400">PHOTO GALLERY</a>
-                    <a href="#contacts" className="hover:text-gray-400">CONTACTS</a>
+                    <a href="#schedule" className="hover:text-gray-400">{t('schedule')}</a>
+                    <a href="#gallery" className="hover:text-gray-400">{t('gallery')}</a>
+                    <a href="#contacts" className="hover:text-gray-400">{t('contacts')}</a>
                 </div>
             </nav>
-            <div className="relative flex items-center space-x-4 md:ml-auto">
+            <div className="relative flex items-center space-x-4 md:mr-10">
                 <div ref={dropdownRef} className="flex items-center space-x-4">
                     <button
                         className="flex items-center space-x-2 hover:text-gray-400"
                         onClick={() => setDropdownOpen(!dropdownOpen)}
                     >
-                        <FaGlobe />
-                        <span>{language}</span>
+                        {language.code === "ka" && GeorgianFlag}
+                        {language.code === "ru" && RussianFlag}
+                        {language.code === "en" && UsaFlag}
+                        <span>{t(`${language.code}`)}</span>
                     </button>
                     {dropdownOpen && (
-                        <div className="absolute top-full right-0 mt-2 w-32 bg-black text-white shadow-lg rounded-md overflow-hidden">
+                        <div className="absolute top-full right-0 mt-2 w-40 bg-black text-white shadow-lg rounded-md overflow-hidden">
                             {languages.map((lang) => (
                                 <button
-                                    key={lang}
+                                    key={lang.code}
+                                    value={lang.code}
                                     className="block w-full text-left px-4 py-2 hover:bg-gray-700"
-                                    onClick={() => changeLanguage(lang)}
-                                >
-                                    {lang}
+                                    onClick={() => changeLanguage(lang)}>
+                                    <span className="flex gap-x-2">{lang.code === "ka" ? GeorgianFlag : lang.code === "ru" ? RussianFlag : lang.code === "en" ? UsaFlag : ""}{t(`${lang.code}`)}</span>
                                 </button>
                             ))}
                         </div>
@@ -97,21 +155,19 @@ const MainHeader: React.FC = () => {
                 </div>
 
                 {/* Mobile Menu Button */}
-                <button title="Menu" className="hidden max-[950px]:flex text-white text-2xl p-2 border border-white rounded-lg"
-                    onClick={() => setMenuOpen(!menuOpen)}
-                >
+                <button title="Menu" className="hidden max-[950px]:flex text-white text-2xl p-2 border border-white rounded-lg" onClick={() => setMenuOpen(!menuOpen)}>
                     <FaBars />
                 </button>
             </div>
             {/* Mobile Menu */}
             {menuOpen && (
                 <div ref={menuRef} className="absolute top-full left-0 w-full bg-black text-white flex-col items-center space-y-4 py-4 shadow-md hidden max-[950px]:flex">
-                    <a href="#home" className="hover:text-gray-400">HOME</a>
-                    <a href="#about" className="hover:text-gray-400">ABOUT US</a>
-                    <a href="#classes" className="hover:text-gray-400">OUR CLASSES</a>
-                    <a href="#schedule" className="hover:text-gray-400">SCHEDULE</a>
-                    <a href="#gallery" className="hover:text-gray-400">PHOTO GALLERY</a>
-                    <a href="#contacts" className="hover:text-gray-400">CONTACTS</a>
+                    <a href="#home" className="hover:text-gray-400">{t('home')}</a>
+                    <a href="#about" className="hover:text-gray-400">{t('about')}</a>
+                    <a href="#classes" className="hover:text-gray-400">{t('classes')}</a>
+                    <a href="#schedule" className="hover:text-gray-400">{t('schedule')}</a>
+                    <a href="#gallery" className="hover:text-gray-400">{t('gallery')}</a>
+                    <a href="#contacts" className="hover:text-gray-400">{t('contacts')}</a>
                 </div>
             )}
         </header>

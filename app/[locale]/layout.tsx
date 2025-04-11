@@ -44,10 +44,10 @@ export default async function RootLayout({
   setRequestLocale(locale);
 
   return (
-    <html lang={locale}>
+    <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <NextIntlClientProvider>
-          <MainHeader />
+          <MainHeader locale={locale}/>
           {children}
         </NextIntlClientProvider>
       </body>
