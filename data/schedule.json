@@ -1,0 +1,59 @@
+[
+    [
+      { "time": "07:30", "title": "BJJ GI/NO-GI", "subtitle": "", "audience": "adlt", "color": "BJJ_ADULTS" },
+      { "time": "08:00", "title": "MMA", "subtitle": "", "audience": "adlt", "color": "MMA_ADULTS" },
+      { "time": "07:30", "title": "BJJ GI/NO-GI", "subtitle": "", "audience": "adlt", "color": "BJJ_ADULTS" },
+      { "time": "08:00", "title": "MMA", "subtitle": "", "audience": "adlt", "color": "MMA_ADULTS" },
+      { "time": "", "title": "", "subtitle": "", "audience": "", "color": "" },
+      { "time": "10:00", "title": "MMA", "subtitle": "", "audience": "kids", "color": "MMA_KIDS" }
+    ],
+    [
+      { "time": "09:30", "title": "BJJ GI/NO-GI", "subtitle": "", "audience": "kids", "color": "BJJ_KIDS" },
+      { "time": "", "title": "", "subtitle": "", "audience": "", "color": "" },
+      { "time": "09:30", "title": "KRAV MAGA", "subtitle": "", "audience": "kids", "color": "BJJ_KIDS" },
+      { "time": "", "title": "", "subtitle": "", "audience": "", "color": "" },
+      { "time": "", "title": "", "subtitle": "", "audience": "", "color": "" },
+      { "time": "11:00", "title": "MMA", "subtitle": "", "audience": "adlt", "color": "MMA_ADULTS" }
+    ],
+    [
+      { "time": "14:00", "title": "MMA", "subtitle": "", "audience": "adlt", "color": "MMA_ADULTS" },
+      { "time": "", "title": "", "subtitle": "", "audience": "", "color": "bg-black text-white" },
+      { "time": "14:00", "title": "MMA", "subtitle": "", "audience": "adlt", "color": "MMA_ADULTS" },
+      { "time": "", "title": "", "subtitle": "", "audience": "", "color": "bg-black text-white" },
+      { "time": "14:00", "title": "MMA", "subtitle": "", "audience": "adlt", "color": "MMA_ADULTS" },
+      { "time": "12:00", "title": "OPEN MAT BJJ", "subtitle": "", "audience": "", "color": "OPEN_MAT" }
+    ],
+    [
+      { "time": "", "title": "", "subtitle": "", "audience": "", "color": "" },
+      { "time": "", "title": "", "subtitle": "", "audience": "", "color": "" },
+      { "time": "", "title": "", "subtitle": "", "audience": "", "color": "" },
+      { "time": "", "title": "", "subtitle": "", "audience": "", "color": "" },
+      { "time": "16:00", "title": "KRAV MAGA", "subtitle": "", "audience": "adlt", "color": "KRAV_ADULTS" },
+      { "time": "13:30", "title": "BJJ GI/NO-GI", "subtitle": "", "audience": "kids", "color": "BJJ_KIDS" }
+    ],
+    [
+      { "time": "17:00", "title": "BJJ GI/NO-GI", "subtitle": "", "audience": "kids", "color": "BJJ_KIDS" },
+      { "time": "17:00", "title": "MMA", "subtitle": "", "audience": "kids", "color": "MMA_KIDS" },
+      { "time": "17:00", "title": "KRAV MAGA", "subtitle": "", "audience": "kids", "color": "KRAV_KIDS" },
+      { "time": "17:00", "title": "MMA", "subtitle": "", "audience": "kids", "color": "MMA_KIDS" },
+      { "time": "", "title": "", "subtitle": "", "audience": "", "color": "" },
+      { "time": "", "title": "", "subtitle": "", "audience": "", "color": "" }
+    ],
+    [
+      { "time": "18:30", "title": "BJJ GI/NO-GI", "subtitle": "", "audience": "kids", "color": "BJJ_KIDS" },
+      { "time": "18:30", "title": "KRAV MAGA", "subtitle": "", "audience": "kids", "color": "KRAV_KIDS" },
+      { "time": "18:30", "title": "KRAV MAGA", "subtitle": "", "audience": "kids", "color": "KRAV_KIDS" },
+      { "time": "18:30", "title": "BJJ GI/NO-GI", "subtitle": "", "audience": "kids", "color": "BJJ_KIDS" },
+      { "time": "19:00", "title": "BJJ GI/NO-GI", "subtitle": "", "audience": "kids", "color": "BJJ_KIDS" },
+      { "time": "", "title": "", "subtitle": "", "audience": "", "color": "" }
+    ],
+    [
+      { "time": "20:00", "title": "BJJ GI/NO-GI", "subtitle": "", "audience": "adlt", "color": "BJJ_ADULTS" },
+      { "time": "20:00", "title": "BJJ GI/NO-GI", "subtitle": "", "audience": "adlt", "color": "BJJ_ADULTS" },
+      { "time": "20:00", "title": "KRAV MAGA", "subtitle": "", "audience": "adlt", "color": "KRAV_ADULTS" },
+      { "time": "20:00", "title": "BJJ GI/NO-GI", "subtitle": "", "audience": "adlt", "color": "BJJ_ADULTS" },
+      { "time": "", "title": "", "subtitle": "", "audience": "", "color": "" },
+      { "time": "", "title": "", "subtitle": "", "audience": "", "color": "" }
+    ]
+  ]
+  

@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "../globals.css";
 import MainHeader from "@/components/MainHeader";
-//import { getMessages } from "@/lib/i18n";
 import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { routing } from '@/i18n/routing';
 import { setRequestLocale } from "next-intl/server";
+import Footer from "@/components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -47,8 +47,9 @@ export default async function RootLayout({
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <NextIntlClientProvider>
-          <MainHeader locale={locale}/>
+          <MainHeader locale={locale} />
           {children}
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>

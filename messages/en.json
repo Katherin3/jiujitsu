@@ -2,6 +2,9 @@
     "MainHeader": {
         "home": "Home",
         "about": "About us",
+        "team": "Our Team",
+        "coaches": "Our Coaches",
+        "facility": "Our Facility",
         "classes": "Our Classes",
         "contacts": "Contacts",
         "gallery": "Photo gallery",
@@ -11,13 +14,15 @@
         "ka": "Georgian"
     },
     "Schedule": {
-        "Monday": "Monday",
-        "Tuesday": "Tuesday",
-        "Wednesday": "Wednesday",
-        "Thursday": "Thursday",
-        "Friday": "Friday",
-        "Saturday": "Saturday",
-        "Sunday": "Sunday",
+        "mon": "Monday",
+        "tue": "Tuesday",
+        "wed": "Wednesday",
+        "thu": "Thursday",
+        "fri": "Friday",
+        "sat": "Saturday",
+        "sun": "Sunday",
+        "adlt": "Adults",
+        "kids": "Kids",
         "Ourschedule": "Our Schedule",
         "schedule": "Schedule"
     },
@@ -25,5 +30,19 @@
         "gladius": "GLADIUS",
         "welcome": "Japanese and Brazilian Jiu-Jitsu",
         "videoError": "Your browser does not support HTML5 video. Please use a modern browser."
+    },
+    "Classes": {
+        "bjjKids": "Kids. Brazilian Jiu-Jitsu (BJJ)",
+        "bjjAdults": "Adults. Brazilian Jiu-Jitsu (BJJ)",
+        "kravKids": "Kids. Krav Maga",
+        "kravAdults": "Adults. Krav Maga",
+        "mmaKids": "Kids. MMA",
+        "mmaAdults": "Adults. MMA",
+        "bjjKidsDesc": "Kids Brazilian Jiu-Jitsu (BJJ) is a grappling-based martial art that focuses on ground control, submissions, and leverage — all without striking.Training helps children improve agility, coordination, strength, and strategic thinking under pressure.BJJ teaches kids to stay calm in challenging situations, defend themselves responsibly, and show respect to others. It builds perseverance, patience, and confidence both on and off the mats.",
+        "bjjAdultsDesc": "Brazilian Jiu-Jitsu (BJJ) is a grappling-based martial art that focuses on ground control, submissions, and leverage — all without striking.Training helps adults improve agility, coordination, strength, and strategic thinking under pressure.BJJ teaches adults to stay calm in challenging situations, defend themselves responsibly, and show respect to others. It builds perseverance, patience, and confidence both on and off the mats.",
+        "kravKidsDesc": "Kids Krav Maga is a self-defense system designed for children. It teaches them how to recognize and avoid dangerous situations, as well as how to defend themselves if necessary. The program focuses on building confidence, discipline, and respect while providing practical self-defense skills.",
+        "kravAdultsDesc": "Krav Maga is a self-defense system developed by the Israeli military. It combines techniques from various martial arts and focuses on real-world scenarios, teaching practitioners how to defend against armed and unarmed attacks.",
+        "mmaKidsDesc": "Kids MMA is a mixed martial arts program designed for children. It combines elements of various martial arts, including Brazilian Jiu-Jitsu, Muay Thai, and wrestling. The program focuses on building confidence, discipline, and respect while providing practical self-defense skills.",
+        "mmaAdultsDesc": "MMA (Mixed Martial Arts) is a full-contact combat sport that allows a wide variety of fighting techniques and skills from a mixture of other combat sports to be used in competition. It is a combination of striking and grappling techniques from various martial arts disciplines, including boxing, Muay Thai, Brazilian Jiu-Jitsu, wrestling, and more. MMA training helps improve physical fitness, self-defense skills, and mental toughness."
     }
 }
