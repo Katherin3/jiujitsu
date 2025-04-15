@@ -10,7 +10,7 @@
     [
       { "time": "09:30", "title": "BJJ GI/NO-GI", "subtitle": "", "audience": "kids", "color": "BJJ_KIDS" },
       { "time": "", "title": "", "subtitle": "", "audience": "", "color": "" },
-      { "time": "09:30", "title": "KRAV MAGA", "subtitle": "", "audience": "kids", "color": "BJJ_KIDS" },
+      { "time": "09:30", "title": "KRAV MAGA", "subtitle": "", "audience": "kids", "color": "KRAV_KIDS" },
       { "time": "", "title": "", "subtitle": "", "audience": "", "color": "" },
       { "time": "", "title": "", "subtitle": "", "audience": "", "color": "" },
       { "time": "11:00", "title": "MMA", "subtitle": "", "audience": "adlt", "color": "MMA_ADULTS" }

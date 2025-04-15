@@ -142,7 +142,7 @@ const MainHeader: React.FC<MainHeaderProps> = (props: MainHeaderProps) => {
                 </div>
                 <div className="flex space-x-6">
                     <Link href={`/schedule`} className="hover:text-gray-400">{t('schedule')}</Link>
-                    <a href="#gallery" className="hover:text-gray-400">{t('gallery')}</a>
+                    <Link href="/gallery" className="hover:text-gray-400">{t('gallery')}</Link>
                     <a href="#contacts" className="hover:text-gray-400">{t('contacts')}</a>
                 </div>
             </nav>
@@ -190,7 +190,7 @@ const MainHeader: React.FC<MainHeaderProps> = (props: MainHeaderProps) => {
 
                     <a href="#classes" className="hover:text-gray-400">{t('classes')}</a>
                     <a href="#schedule" className="hover:text-gray-400">{t('schedule')}</a>
-                    <a href="#gallery" className="hover:text-gray-400">{t('gallery')}</a>
+                    <Link href="/gallery" className="hover:text-gray-400">{t('gallery')}</Link>
                     <a href="#contacts" className="hover:text-gray-400">{t('contacts')}</a>
                 </div>
             )}

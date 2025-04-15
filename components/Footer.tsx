@@ -20,7 +20,7 @@ const Footer = () => {
                     <Image src={logo} alt="Gladius Jiu-Jitsu" width={60} height={60} />
                     <div className="text-sm text-gray-300">
                         <div className="font-semibold text-white">Gladius Fight Academy BJJ • MMA • Krav Maga Tbilisi</div>
-                        <div>21 Pavle Aslanidi St, Tbilisi</div>
+                        <a href="https://maps.app.goo.gl/rv7UvDRUg6bKnkhd8" target="_blank" rel="noopener noreferrer">21 Pavle Aslanidi St, Tbilisi</a>
                     </div>
                 </div>
 
@@ -30,11 +30,11 @@ const Footer = () => {
                     <a href="https://www.instagram.com/gladius.fight.academy/" target="_blank" rel="noopener noreferrer" className="hover:text-red-500"><FaInstagram /></a>
                     <a href="https://t.me" target="_blank" rel="noopener noreferrer" className="hover:text-red-500"><FaTelegramPlane /></a>
                     <a href="https://wa.me" target="_blank" rel="noopener noreferrer" className="hover:text-red-500"><FaWhatsapp /></a>
-                    <a href="mailto:example@mail.com" className="hover:text-red-500"><FaEnvelope /></a>
+                    <a href="mailto:gladiusjiujitsu@gmail.com" className="hover:text-red-500"><FaEnvelope /></a>
                 </div>
 
                 {/* Button Call Now */}
-                <a href="tel:+995599000000" className="bg-red-400 hover:bg-red-500 hover:text-white text-black font-semibold px-4 py-2 rounded shadow flex items-center space-x-2">
+                <a href="tel:+995557788881" className="bg-red-400 hover:bg-red-500 hover:text-white text-black font-semibold px-4 py-2 rounded shadow flex items-center space-x-2">
                     <span>Call Now</span>
                     <FaPhoneAlt className="text-sm" />
                 </a>

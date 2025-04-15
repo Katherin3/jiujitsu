@@ -13,7 +13,7 @@ type ScheduleCell = {
 enum ClassColors {
   BJJ_ADULTS = 'bg-blue-900 text-white',
   MMA_ADULTS = 'bg-gray-700 text-white',
-  MMA_KIDS = 'bg-red-600 text-white',
+  MMA_KIDS = 'bg-red-400 text-white',
   BJJ_KIDS = 'bg-yellow-500 text-black',
   KRAV_ADULTS = 'bg-red-900 text-white',
   KRAV_KIDS = 'bg-green-700 text-white',
@@ -83,7 +83,7 @@ const ScheduleTable: React.FC = () => {
                       <span className="text-[1.0rem] font-bold mb-1">{cell.time}</span>
                       <span className="text-2xl sm:text-2xl font-bold">{cell.title}</span>
                       {cell.subtitle && <span className="text-xs opacity-80">{cell.subtitle}</span>}
-                      <span className="text-[1.0rem] mt-1 tracking-wide">{t.has(cell.audience) ? t(cell.audience) : ""}</span>
+                      <span className="text-[1.0rem] bg-re mt-1 tracking-wide">{t.has(cell.audience) ? t(cell.audience) : ""}</span>
                     </div>
                   )}
                 </td>
