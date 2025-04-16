@@ -36,7 +36,7 @@ const VideoBlock = () => {
                 muted
                 loop
                 playsInline
-                className="mt-90 pt-50 pb-60 absolute w-full h-350 inset-0  object-cover z-0"
+                className="mt-90 pt-50 pb-30 absolute w-full h-350 inset-0  object-cover z-0"
                 id="myVideo"
                 data-video="0">
                 <source src="/videos/video_bg_main.mp4" type="video/mp4" />

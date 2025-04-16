@@ -8,7 +8,7 @@ const Contacts = () => {
     const [showVideo, setShowVideo] = useState(false);
 
     return (
-        <section className="bg-black py-8 px-4 text-white relative">
+        <section className="bg-black py-8 px-4 text-white relative mb-16">
             <div className="max-w-7xl mx-auto text-center mb-10">
                 <h1 className="text-4xl sm:text-5xl font-extrabold uppercase tracking-tight mb-4">
                     Contacts

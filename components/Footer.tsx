@@ -11,7 +11,7 @@ import {
 
 const Footer = () => {
     return (
-        <footer className="bg-black text-white px-6 py-8 border-t border-gray-700">
+        <footer className="bg-black text-white px-6 py-8 border-t border-gray-700 max-h-[123px]">
             <div className="max-w-[1214px] mx-auto flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0">
 
                 {/* Logo and Address */}
