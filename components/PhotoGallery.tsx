@@ -83,45 +83,57 @@ export default function GalleryWithSidebar() {
     };
 
     return (
-        <div className="flex bg-black text-white min-h-screen">
-            <aside className="w-48  py-8 px-4 bg-zinc-900">
-                <nav className="flex flex-col gap-4">
-                    {Object.entries(categories).map(([key, { label }]) => (
-                        <button
-                            key={key}
-                            type="button"
-                            onClick={() => setActiveCategory(key as keyof typeof categories)}
-                            className={`text-left px-3 py-2 rounded-lg transition ${activeCategory === key
-                                ? "bg-white text-black font-semibold"
-                                : "hover:bg-white/10"
-                                }`}
-                        >
-                            {label}
-                        </button>
-                    ))}
-                </nav>
-            </aside>
+        <section className="bg-black py-8 px-4 min-h-screen">
+            <div className="max-w-7xl mx-auto text-center mb-10">
+                <h1 className="text-4xl sm:text-5xl font-extrabold text-white uppercase tracking-tight mb-4">
+                    Photo Gallery
+                </h1>
+                <p className="text-gray-400 max-w-2xl mx-auto text-base sm:text-lg">
+                    Explore moments from our classes, events, and more.
+                </p>
+            </div>
 
-            <main className="flex-1 p-8 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
-                {images.map((img, index) => (
-                    <button
-                        title="Open image"
-                        key={index}
-                        type="button"
-                        onClick={() => openImage(index)}
-                        className="group relative overflow-hidden rounded-xl shadow-lg"
-                    >
-                        <Image
-                            src={img}
-                            alt="Gallery image"
-                            width={400}
-                            height={300}
-                            className="w-full h-auto object-cover transition-transform duration-300 group-hover:scale-105"
-                        />
-                    </button>
-                ))}
-            </main>
+            <div className="max-w-7xl mx-auto">
+                <div className="flex flex-col lg:flex-row gap-10 items-start">
+                    {/* Sidebar */}
+                    <aside className="lg:w-48 lg:min-w-[12rem] flex lg:flex-col gap-2 justify-start sticky top-32 self-start">
+                        {Object.entries(categories).map(([key, { label }]) => (
+                            <button
+                                key={key}
+                                type="button"
+                                onClick={() => setActiveCategory(key)}
+                                className={`text-sm sm:text-base px-4 py-2 rounded-full transition font-medium ${activeCategory === key
+                                    ? "bg-white text-black"
+                                    : "text-white hover:bg-white/10 border border-white/10"
+                                    }`}
+                            >
+                                {label}
+                            </button>
+                        ))}
+                    </aside>
+                    {/* Gallery Grid */}
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 flex-1">
+                        {images.map((img, index) => (
+                            <button
+                                key={index}
+                                type="button"
+                                onClick={() => openImage(index)}
+                                className="group relative overflow-hidden rounded-2xl shadow-lg border border-white/10 transition-all hover:scale-[1.015] hover:shadow-2xl"
+                            >
+                                <Image
+                                    src={img}
+                                    alt="Gallery preview"
+                                    width={400}
+                                    height={300}
+                                    className="w-full h-full object-cover"
+                                />
+                            </button>
+                        ))}
+                    </div>
+                </div>
+            </div>
 
+            {/* Lightbox */}
             {isOpen && (
                 <div className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-4">
                     <button
@@ -142,13 +154,13 @@ export default function GalleryWithSidebar() {
                         <FaChevronLeft size={40} />
                     </button>
 
-                    <div className="max-w-4xl w-full max-h-[90vh]">
+                    <div className="max-w-5xl w-full max-h-[90vh]">
                         <Image
                             src={currentImage}
                             alt="Full view"
                             width={1200}
                             height={800}
-                            className="w-full h-auto rounded-md"
+                            className="w-full h-auto rounded-xl"
                         />
                     </div>
 
@@ -162,6 +174,6 @@ export default function GalleryWithSidebar() {
                     </button>
                 </div>
             )}
-        </div>
+        </section>
     );
 }

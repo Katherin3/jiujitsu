@@ -1,4 +1,3 @@
-'use client';
 import Image from "next/image";
 import logo from "@/assets/images/logo192.png"; // замени на актуальный путь
 import {
@@ -34,7 +33,7 @@ const Footer = () => {
                 </div>
 
                 {/* Button Call Now */}
-                <a href="tel:+995557788881" className="bg-red-400 hover:bg-red-500 hover:text-white text-black font-semibold px-4 py-2 rounded shadow flex items-center space-x-2">
+                <a href="tel:+995557788881" className="inline-flex items-center gap-2 bg-white text-black font-semibold px-5 py-2 rounded-full  hover:bg-red-500 hover:text-white transition">
                     <span>Call Now</span>
                     <FaPhoneAlt className="text-sm" />
                 </a>

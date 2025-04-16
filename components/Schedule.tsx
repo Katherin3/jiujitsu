@@ -61,7 +61,15 @@ const ScheduleTable: React.FC = () => {
   };
 
   return (
-    <>
+    <section className="bg-black py-8 px-4 min-h-screen">
+      <div className="max-w-7xl mx-auto text-center mb-10">
+        <h1 className="text-4xl sm:text-5xl font-extrabold text-white uppercase tracking-tight mb-4">
+          {t("title")}
+        </h1>
+        <p className="text-gray-400 max-w-2xl mx-auto text-base sm:text-lg">
+          {t("intro")}
+        </p>
+      </div>
       <Legend />
       <table className="w-full border border-white text-center text-sm font-sans mt-3">
         <thead>
@@ -92,7 +100,7 @@ const ScheduleTable: React.FC = () => {
           ))}
         </tbody>
       </table>
-    </>
+    </section>
   );
 };
 

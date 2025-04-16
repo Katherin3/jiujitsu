@@ -1,4 +1,4 @@
-import Classes from "@/components/Classes";
+import Contacts from "@/components/Contacts";
 import { routing } from "@/i18n/routing";
 import { setRequestLocale } from "next-intl/server";
 import { use } from "react";
@@ -7,13 +7,16 @@ export function generateStaticParams() {
     return routing.locales.map((locale) => ({ locale }));
 }
 
-export default function ClassesPage({ params }: { params: Promise<{ locale: string }> }) {
+const ContactsPage = ({ params }: { params: Promise<{ locale: string }> }) => {
     const { locale } = use(params);
+
     // Enable static rendering
     setRequestLocale(locale);
+
     return (
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-            <Classes />
+            <Contacts />
         </div>
     );
 }
+export default ContactsPage;
