@@ -23,7 +23,8 @@
         "sun": "Sunday",
         "adlt": "Adults",
         "kids": "Kids",
-        "Ourschedule": "Our Schedule",
+        "title": "Our Schedule",
+        "intro": "We offer a variety of classes for all ages and skill levels. Whether you're a beginner or an experienced martial artist, we have something for you.",
         "schedule": "Schedule"
     },
     "VideoBlock": {
@@ -32,6 +33,8 @@
         "videoError": "Your browser does not support HTML5 video. Please use a modern browser."
     },
     "Classes": {
+        "title": "Our Classes",
+        "intro": "We offer a variety of classes for all ages and skill levels. Whether you're a beginner or an experienced martial artist, we have something for you.",
         "bjjKids": "Kids. Brazilian Jiu-Jitsu (BJJ)",
         "bjjAdults": "Adults. Brazilian Jiu-Jitsu (BJJ)",
         "kravKids": "Kids. Krav Maga",
@@ -44,5 +47,26 @@
         "kravAdultsDesc": "Krav Maga is a self-defense system developed by the Israeli military. It combines techniques from various martial arts and focuses on real-world scenarios, teaching practitioners how to defend against armed and unarmed attacks.",
         "mmaKidsDesc": "Kids MMA is a mixed martial arts program designed for children. It combines elements of various martial arts, including Brazilian Jiu-Jitsu, Muay Thai, and wrestling. The program focuses on building confidence, discipline, and respect while providing practical self-defense skills.",
         "mmaAdultsDesc": "MMA (Mixed Martial Arts) is a full-contact combat sport that allows a wide variety of fighting techniques and skills from a mixture of other combat sports to be used in competition. It is a combination of striking and grappling techniques from various martial arts disciplines, including boxing, Muay Thai, Brazilian Jiu-Jitsu, wrestling, and more. MMA training helps improve physical fitness, self-defense skills, and mental toughness."
+    },
+    "Footer": {
+        "address": "Pavle Aslanidi Street 21, Tbilisi, Georgia",
+        "callUs": "Call us"
+    },
+    "PromoSections": {
+        "promoTitleFree": "Trial class for free",
+        "promoDescFree": "Come to an introductory session free of charge - get acquainted with the atmosphere and methodology of our trainers.",
+        "promoButton": "Contact us",
+        "promoTitleIndividual": "Personalized Training Plan",
+        "promoDescIndividual": "We assess your level, set goals, and create a program for you: weight loss, tone, or competitive preparation.",
+        "promoButtonDetails": "More details",
+        "promoTitleSchedule": "Classes 5 days a week",
+        "promoDescSchedule": "Classes are held 5 days a week, with the possibility of choosing the time and day of classes. We are always happy to see you at training!",
+        "promoButtonSchedule": "Schedule",
+        "promoTitleMasterClasses": "Master classes and special events",
+        "promoDescMasterClasses": "We regularly host seminars and open lessons with experienced trainers and athletes. Stay tuned for updates!"
+    },
+    "About": {
+        "aboutTitle": "We are GLADIUS",
+        "aboutDescription": "GLADIUS is a martial arts school located in Tbilisi, Georgia. We specialize in Brazilian Jiu-Jitsu (BJJ), Krav Maga, and MMA. Our experienced coaches are dedicated to providing high-quality training for all levels, from beginners to advanced practitioners. We believe in creating a supportive and inclusive environment where everyone can learn and grow."
     }
 }
