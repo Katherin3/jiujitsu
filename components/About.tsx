@@ -1,9 +1,6 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import emblem1 from "@/assets/images/bjjnf.jpg";
-import emblem2 from "@/assets/images/Logo_JJIF.png";
-import emblem3 from "@/assets/images/logo-ibjjf-vertical-WHITE.svg";
-import aboutPhoto from "@/assets/images/adults-bjj.png";
+//import aboutPhoto from "@/assets/images/adults-bjj.png";
 
 const About = () => {
   const t = useTranslations("About");
@@ -21,16 +18,16 @@ const About = () => {
             
           </p>
           <div className="flex gap-6 items-center">
-            <Image src={emblem1} alt="Emblem 1" className="w-40 h-auto" />
-            <Image src={emblem2} alt="Emblem 2" className="w-40 h-auto" />
-            <Image src={emblem3} alt="Emblem 2" className="w-40 h-auto" />
+            <Image src="https://res.cloudinary.com/dkv4zgqvl/image/upload/c_pad,w_160/v1747134061/bjjnf_dpe3ht.jpg" width={160} height={160} alt="BJJNF" className="w-40 h-auto" />
+            <Image src="https://res.cloudinary.com/dkv4zgqvl/image/upload/c_pad,w_160/v1747134175/Logo_JJIF_ymlyde.png" width={160} height={160} alt="JJIF" className="w-40 h-auto" />
+            <Image src="https://res.cloudinary.com/dkv4zgqvl/image/upload/v1747134173/logo-ibjjf-vertical-WHITE_uqiahl.svg" width={160} height={160} alt="IBJJF" className="w-40 h-auto" />
           </div>
         </div>
 
         {/* Right: Image */}
         <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-xl border border-white/10">
           <Image
-            src={aboutPhoto}
+            src="https://res.cloudinary.com/dkv4zgqvl/image/upload/v1747134067/adults-bjj_es8wbc.png"
             alt="About Us Photo"
             fill
             className="object-cover w-full h-full"

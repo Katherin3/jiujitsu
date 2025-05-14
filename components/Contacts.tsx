@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { FaTimes, FaVideo, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaFacebookF, FaInstagram, FaTelegramPlane, FaWhatsapp } from "react-icons/fa";
-import mapImage from "@/assets/images/map.png";
+//import mapImage from "@/assets/images/map.png";
 
 const Contacts = () => {
     const [showVideo, setShowVideo] = useState(false);
@@ -24,7 +24,7 @@ const Contacts = () => {
                     <div className="w-full rounded-2xl overflow-hidden shadow-xl border border-white/10">
                         <a href="https://maps.app.goo.gl/rv7UvDRUg6bKnkhd8" target="_blank" title="Map" rel="noopener noreferrer">
                             <Image
-                                src={mapImage}
+                                src="https://res.cloudinary.com/dkv4zgqvl/image/upload/v1747134053/map_iv4hfi.png"
                                 alt="Map location"
                                 width={800}
                                 height={600}
@@ -73,11 +73,11 @@ const Contacts = () => {
                     </div>
                     {/* Social Networks */}
                     <div className="flex items-start gap-4 border-t border-white/10 pt-4.5">
-                        <a href="https://www.facebook.com/GladiusFightAcademy" target="_blank" rel="noopener noreferrer" ><FaFacebookF className="text-2xl mt-1  text-white/80 hover:text-red-500 transition-transform group-hover:scale-105" /></a>
-                        <a href="https://www.instagram.com/gladius.fight.academy/" target="_blank" rel="noopener noreferrer" ><FaInstagram className="text-2xl mt-1  text-white/80 hover:text-red-500 transition-transform group-hover:scale-105" /></a>
-                        <a href="https://t.me" target="_blank" rel="noopener noreferrer" ><FaTelegramPlane className="text-2xl mt-1  text-white/80 hover:text-red-500 transition-transform group-hover:scale-105" /></a>
-                        <a href="https://wa.me" target="_blank" rel="noopener noreferrer" ><FaWhatsapp className="text-2xl mt-1  text-white/80 hover:text-red-500 transition-transform group-hover:scale-105" /></a>
-                        <a href="mailto:gladiusjiujitsu@gmail.com" ><FaEnvelope className="text-2xl mt-1  text-white/80 hover:text-red-500 transition-transform group-hover:scale-105" /></a>
+                        <a href="https://www.facebook.com/GladiusFightAcademy" target="_blank" rel="noopener noreferrer" title="Visit our Facebook page"><FaFacebookF className="text-2xl mt-1  text-white/80 hover:text-red-500 transition-transform group-hover:scale-105" /></a>
+                        <a href="https://www.instagram.com/gladius.fight.academy/" target="_blank" rel="noopener noreferrer" title="Visit our Instagram profile"><FaInstagram className="text-2xl mt-1  text-white/80 hover:text-red-500 transition-transform group-hover:scale-105" /></a>
+                        <a href="https://t.me" target="_blank" rel="noopener noreferrer" title="Visit our Telegram channel"><FaTelegramPlane className="text-2xl mt-1  text-white/80 hover:text-red-500 transition-transform group-hover:scale-105" /></a>
+                        <a href="https://wa.me" target="_blank" rel="noopener noreferrer" title="Contact us on WhatsApp"><FaWhatsapp className="text-2xl mt-1  text-white/80 hover:text-red-500 transition-transform group-hover:scale-105" /></a>
+                        <a href="mailto:gladiusjiujitsu@gmail.com" title="Send us an email"><FaEnvelope className="text-2xl mt-1  text-white/80 hover:text-red-500 transition-transform group-hover:scale-105" /></a>
                     </div>
                 </div>
             </div>
@@ -93,13 +93,12 @@ const Contacts = () => {
                         <FaTimes size={32} />
                     </button>
 
-                    <div className="w-full max-w-4xl aspect-video rounded-xl overflow-hidden shadow-2xl">
+                    <div className="w-full max-w-xs sm:max-w-md md:max-w-lg aspect-[560/840] rounded-xl overflow-hidden shadow-2xl flex items-center justify-center">
                         <iframe
-                            className="w-full h-full"
-                            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                            src="https://player.cloudinary.com/embed/?cloud_name=dkv4zgqvl&public_id=lvqiqdjdpughsh22lufp&profile=cld-default"
                             title="How to find us"
-                            frameBorder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            className="w-full h-full"
+                            allow="autoplay; encrypted-media; picture-in-picture"
                             allowFullScreen
                         ></iframe>
                     </div>

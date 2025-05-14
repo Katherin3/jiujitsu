@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "../globals.css";
-import MainHeader from "@/components/MainHeader";
+import MainHeader from "@/components/MainHeader/MainHeader";
 import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { routing } from '@/i18n/routing';

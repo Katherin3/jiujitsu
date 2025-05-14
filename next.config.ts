@@ -7,6 +7,14 @@ const nextConfig: NextConfig = {
   output: 'export',
   images: {
     unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'res.cloudinary.com',
+        port: '',
+        pathname: '/**',
+      },
+    ],
   }
 };
 // If you want to use the `next-intl` plugin, you can use the following code

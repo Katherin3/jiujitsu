@@ -1,5 +1,4 @@
 import Image from "next/image";
-import logo from "@/assets/images/logo192.png"; // замени на актуальный путь
 import {
     FaFacebookF,
     FaInstagram,
@@ -16,7 +15,7 @@ const Footer = () => {
 
                 {/* Logo and Address */}
                 <div className="flex items-center space-x-4">
-                    <Image src={logo} alt="Gladius Jiu-Jitsu" width={60} height={60} />
+                    <Image src="https://res.cloudinary.com/dkv4zgqvl/image/upload/c_pad,w_60,h_60,ar_1:1/v1747134176/logo192_fjgzrl.png" alt="Gladius Jiu-Jitsu" width={60} height={60} />
                     <div className="text-sm text-gray-300">
                         <div className="font-semibold text-white">Gladius Fight Academy BJJ • MMA • Krav Maga Tbilisi</div>
                         <a href="https://maps.app.goo.gl/rv7UvDRUg6bKnkhd8" target="_blank" rel="noopener noreferrer">21 Pavle Aslanidi St, Tbilisi</a>

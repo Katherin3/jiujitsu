@@ -1,4 +1,3 @@
-import logoCenter from '@/assets/images/gladius_center_logo.png';
 import Link from "next/link";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
@@ -14,7 +13,9 @@ const VideoBlock = () => {
             <div className="relative z-10 flex flex-col items-center text-center px-6 pt-40">
                 <Image
                     className="mx-auto mb-6 w-32 h-auto"
-                    src={logoCenter}
+                    src="https://res.cloudinary.com/dkv4zgqvl/image/upload/c_pad,w_128,h_128/v1747134174/gladius_center_logo_obocvh.png"
+                    width={128}
+                    height={128}
                     alt="Gladius"
                     priority
                 />

@@ -1,39 +1,36 @@
 import Image from "next/image";
-import bjjKidsImage from "@/assets/images/kids-bjj.png";
-import bjjAdultsImage from "@/assets/images/adults-bjj.png";
-import kravMagaImage from "@/assets/images/kravmaga.png";
 import { useTranslations } from "next-intl";
 
 const classList = [
     {
         titleKey: "bjjKids",
         descKey: "bjjKidsDesc",
-        image: bjjKidsImage,
+        image: "https://res.cloudinary.com/dkv4zgqvl/image/upload/c_fill,w_355,h_256/v1747139748/kids-bjj-class_mynw9t.png",
     },
     {
         titleKey: "bjjAdults",
         descKey: "bjjAdultsDesc",
-        image: bjjAdultsImage,
+        image: "https://res.cloudinary.com/dkv4zgqvl/image/upload/c_fill,w_355,h_256/v1747139747/adults-bjj-class_ajljxh.png",
     },
     {
         titleKey: "kravAdults",
         descKey: "kravAdultsDesc",
-        image: kravMagaImage,
+        image: "https://res.cloudinary.com/dkv4zgqvl/image/upload/c_fill,w_355,h_256/v1747139750/adults-kravmaga-class_yzuvx5.png",
     },
     {
         titleKey: "kravKids",
         descKey: "kravKidsDesc",
-        image: bjjKidsImage,
+        image: "https://res.cloudinary.com/dkv4zgqvl/image/upload/c_fill,w_355,h_256/v1747139752/kids-kravmaga-class_ku26op.png",
     },
     {
         titleKey: "mmaAdults",
         descKey: "mmaAdultsDesc",
-        image: bjjKidsImage,
+        image: "https://res.cloudinary.com/dkv4zgqvl/image/upload/c_fill,w_355,h_256/v1747139753/adults-mma-class_pwwhso.png",
     },
     {
         titleKey: "mmaKids",
         descKey: "mmaKidsDesc",
-        image: bjjKidsImage,
+        image: "https://res.cloudinary.com/dkv4zgqvl/image/upload/c_fill,w_355,h_256/v1747139756/kids-mma-class_ot8lrc.png",
     },
 ];
 
