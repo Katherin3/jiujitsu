@@ -1,4 +1,4 @@
-import ScheduleTable from "@/components/Schedule";
+import ScheduleTable from "@/components/Schedule/Schedule";
 import { routing } from "@/i18n/routing";
 import { setRequestLocale } from "next-intl/server";
 import { use } from "react";

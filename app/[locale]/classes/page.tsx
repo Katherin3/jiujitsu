@@ -1,4 +1,4 @@
-import Classes from "@/components/Classes";
+import { Classes } from "@/components";
 import { routing } from "@/i18n/routing";
 import { setRequestLocale } from "next-intl/server";
 import { use } from "react";

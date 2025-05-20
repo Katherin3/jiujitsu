@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { useRouter, usePathname } from "next/navigation";
 import { Link } from '@/i18n/navigation';
-import { GeorgianFlag, RussianFlag, UsaFlag } from "./Flags";
+import { GeorgianFlag, RussianFlag, UsaFlag } from "@/components"
 
 type Language = {
     name: string;
@@ -99,7 +99,6 @@ const MainHeader: React.FC<MainHeaderProps> = memo((props: MainHeaderProps) => {
 
     const dropDownMenu: JSX.Element = useMemo((): JSX.Element => {
         return (
-
             <div ref={dropdownRef} className="flex items-center space-x-4">
                 <button
                     className="flex items-center space-x-2 hover:text-gray-400"

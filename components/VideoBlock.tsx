@@ -32,17 +32,13 @@ const VideoBlock = () => {
                 </div>
             </div>
             {/* Video Background */}
-            <video
-                autoPlay
-                muted
-                loop
-                playsInline
+            <iframe
+                title="Gladius Fight Academy"
+                src="https://player.cloudinary.com/embed/?cloud_name=dkv4zgqvl&public_id=yzuqyfssjpmphojo7ess&profile=promo_video_main"
                 className="mt-90 pt-50 pb-30 absolute w-full h-350 inset-0  object-cover z-0"
-                id="myVideo"
-                data-video="0">
-                <source src="/videos/video_bg_main.mp4" type="video/mp4" />
-                {t("videoError")}
-            </video>
+                allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
+                allowFullScreen
+            ></iframe>
         </section>
 
     );

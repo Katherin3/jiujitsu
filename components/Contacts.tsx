@@ -1,7 +1,8 @@
 'use client';
 import { useState } from "react";
 import Image from "next/image";
-import { FaTimes, FaVideo, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaFacebookF, FaInstagram, FaTelegramPlane, FaWhatsapp } from "react-icons/fa";
+import { FaTimes, FaVideo, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
+import {SocialNetworks} from "@/components";
 //import mapImage from "@/assets/images/map.png";
 
 const Contacts = () => {
@@ -72,13 +73,7 @@ const Contacts = () => {
                         </div>
                     </div>
                     {/* Social Networks */}
-                    <div className="flex items-start gap-4 border-t border-white/10 pt-4.5">
-                        <a href="https://www.facebook.com/GladiusFightAcademy" target="_blank" rel="noopener noreferrer" title="Visit our Facebook page"><FaFacebookF className="text-2xl mt-1  text-white/80 hover:text-red-500 transition-transform group-hover:scale-105" /></a>
-                        <a href="https://www.instagram.com/gladius.fight.academy/" target="_blank" rel="noopener noreferrer" title="Visit our Instagram profile"><FaInstagram className="text-2xl mt-1  text-white/80 hover:text-red-500 transition-transform group-hover:scale-105" /></a>
-                        <a href="https://t.me" target="_blank" rel="noopener noreferrer" title="Visit our Telegram channel"><FaTelegramPlane className="text-2xl mt-1  text-white/80 hover:text-red-500 transition-transform group-hover:scale-105" /></a>
-                        <a href="https://wa.me" target="_blank" rel="noopener noreferrer" title="Contact us on WhatsApp"><FaWhatsapp className="text-2xl mt-1  text-white/80 hover:text-red-500 transition-transform group-hover:scale-105" /></a>
-                        <a href="mailto:gladiusjiujitsu@gmail.com" title="Send us an email"><FaEnvelope className="text-2xl mt-1  text-white/80 hover:text-red-500 transition-transform group-hover:scale-105" /></a>
-                    </div>
+                   <SocialNetworks />
                 </div>
             </div>
 

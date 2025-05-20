@@ -1,9 +1,8 @@
-import VideoBlock from "@/components/VideoBlock";
 import { setRequestLocale } from "next-intl/server";
 import { use } from "react";
 import { routing } from "@/i18n/routing";
-import PromoSections from "@/components/PromoSections";
-import About from "@/components/About";
+import { PromoSections, About, VideoBlock} from "@/components";
+
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));

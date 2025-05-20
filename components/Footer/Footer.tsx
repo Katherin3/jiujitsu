@@ -1,12 +1,8 @@
 import Image from "next/image";
 import {
-    FaFacebookF,
-    FaInstagram,
-    FaTelegramPlane,
-    FaWhatsapp,
-    FaEnvelope,
     FaPhoneAlt
 } from "react-icons/fa";
+import { SocialNetworks } from '@/components';
 
 const Footer = () => {
     return (
@@ -23,13 +19,7 @@ const Footer = () => {
                 </div>
 
                 {/* Social Networks */}
-                <div className="flex space-x-4 text-xl text-gray-300">
-                    <a href="https://www.facebook.com/GladiusFightAcademy" target="_blank" rel="noopener noreferrer" className="hover:text-red-500"><FaFacebookF /></a>
-                    <a href="https://www.instagram.com/gladius.fight.academy/" target="_blank" rel="noopener noreferrer" className="hover:text-red-500"><FaInstagram /></a>
-                    <a href="https://t.me" target="_blank" rel="noopener noreferrer" className="hover:text-red-500"><FaTelegramPlane /></a>
-                    <a href="https://wa.me" target="_blank" rel="noopener noreferrer" className="hover:text-red-500"><FaWhatsapp /></a>
-                    <a href="mailto:gladiusjiujitsu@gmail.com" className="hover:text-red-500"><FaEnvelope /></a>
-                </div>
+                <SocialNetworks />
 
                 {/* Button Call Now */}
                 <a href="tel:+995557788881" className="inline-flex items-center gap-2 bg-white text-black font-semibold px-5 py-2 rounded-full  hover:bg-red-500 hover:text-white transition">
