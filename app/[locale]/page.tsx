@@ -17,9 +17,9 @@ export default function Home({ params }: { params: Promise<{ locale: string }> }
 
   return (
     <>
-      <div className="grid grid-rows-[20px_1fr_20px] p-8 items-center justify-items-center min-h-screen   gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+      <section className="grid grid-rows-[20px_1fr_20px] p-8 items-center justify-items-center min-h-screen   gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
         <VideoBlock />
-      </div>
+      </section>
       <About />
       <PromoSections />
     </>

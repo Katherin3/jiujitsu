@@ -1,12 +1,12 @@
 export { default as About } from './About';
-export { default as Classes } from './Classes';
+export { default as Classes } from './Classes/Classes';
 export { default as Contacts } from './Contacts';
-export { default as GalleryWithSidebar } from './PhotoGallery';
+export { default as GalleryWithSidebar } from './PhotoGallery/PhotoGallery';
 export { default as PromoSections } from './PromoSections';
 export { default as VideoBlock } from './VideoBlock';
 export { default as Schedule } from './Schedule/Schedule';
 export { default as MainHeader } from './MainHeader/MainHeader';
-export {GeorgianFlag} from './MainHeader/Flags';
+export { GeorgianFlag } from './MainHeader/Flags';
 export { RussianFlag } from './MainHeader/Flags';
 export { UsaFlag } from './MainHeader/Flags';
 export { default as Footer } from './Footer/Footer';

@@ -47,10 +47,10 @@ const Contacts = () => {
                 <div className="space-y-6">
                     <div className="flex items-start gap-4 border-t border-white/10 pt-4.5">
                         <FaMapMarkerAlt className="text-xl mt-1 text-white/80 hover:text-red-500 transition-transform group-hover:scale-105" />
-                        <div>
+                        <address>
                             <h3 className="text-xl font-semibold mb-2">Address</h3>
                             <p className="text-gray-300">21 Pavle Aslanidi St, Tbilisi, Georgia</p>
-                        </div>
+                        </address>
                     </div>
 
                     <div className="flex items-start gap-4 border-t border-white/10 pt-4.5">

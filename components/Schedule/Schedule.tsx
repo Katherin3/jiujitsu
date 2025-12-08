@@ -88,7 +88,7 @@ const ScheduleTable: React.FC = () => {
                 <td key={colIndex} className={`p-2 border border-white ${cell.color}`}                >
                   {cell.time && (
                     <div className="flex flex-col items-center justify-center text-[0.65rem] sm:text-sm font-semibold leading-tight uppercase">
-                      <span className="text-[1.0rem] font-bold mb-1">{cell.time}</span>
+                      <time className="text-[1.0rem] font-bold mb-1">{cell.time}</time>
                       <span className="text-2xl sm:text-2xl font-bold">{cell.title}</span>
                       {cell.subtitle && <span className="text-xs opacity-80">{cell.subtitle}</span>}
                       <span className="text-[1.0rem] bg-re mt-1 tracking-wide">{t.has(cell.audience) ? t(cell.audience) : ""}</span>

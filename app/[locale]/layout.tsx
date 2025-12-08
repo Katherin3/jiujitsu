@@ -47,9 +47,13 @@ export default async function RootLayout({
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <NextIntlClientProvider>
-          <MainHeader locale={locale} />
-          {children}
-          <Footer />
+          <div className="flex min-h-screen flex-col">
+            <MainHeader locale={locale} />
+            <main className="flex-1">
+              {children}
+            </main>
+            <Footer />
+          </div>
         </NextIntlClientProvider>
       </body>
     </html>
