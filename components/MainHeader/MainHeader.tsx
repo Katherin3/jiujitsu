@@ -147,6 +147,7 @@ const MainHeader: React.FC<MainHeaderProps> = memo((props: MainHeaderProps) => {
                                 <Link href="/about/team" className="block px-4 py-2 hover:bg-gray-700">{t('team')}</Link>
                                 <Link href="/about/coaches" className="block px-4 py-2 hover:bg-gray-700">{t('coaches')}</Link>
                                 <Link href="/about/facility" className="block px-4 py-2 hover:bg-gray-700">{t('facility')}</Link>
+                                <Link href="/about/facility" className="block px-4 py-2 hover:bg-gray-700">{t('facility')}</Link>
                             </div>
                         )}
                     </div>
