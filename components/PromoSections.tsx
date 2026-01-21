@@ -12,24 +12,24 @@ type PromoBlock = {
 
 const PromoBlocks: PromoBlock[] = [
     {
-        icon: <FaHandshake className="hover:text-red-500" size={40} />,
+        icon: <FaHandshake className="text-red-500" size={40} />,
         promoTitle: 'promoTitleFree',
         promoDesc: 'promoDescFree',
         promoButton: { title: 'promoButton', link: '/contacts' }
     },
     {
-        icon: <FaClipboardList className="hover:text-red-500" size={40} />,
+        icon: <FaClipboardList className="text-red-500" size={40} />,
         promoTitle: 'promoTitleIndividual',
         promoDesc: 'promoDescIndividual'
     },
     {
-        icon: <FaCalendarAlt className="hover:text-red-500" size={40} />,
+        icon: <FaCalendarAlt className="text-red-500" size={40} />,
         promoTitle: 'promoTitleSchedule',
         promoDesc: 'promoDescSchedule',
         promoButton: { title: 'promoButtonSchedule', link: '/schedule' }
     },
     {
-        icon: <FaTrophy className="hover:text-red-500" size={40} />,
+        icon: <FaTrophy className="text-red-500" size={40} />,
         promoTitle: 'promoTitleMasterClasses',
         promoDesc: 'promoDescMasterClasses'
     }

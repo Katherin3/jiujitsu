@@ -22,16 +22,16 @@ const classList = [
         descKey: "kravKidsDesc",
         image: "https://res.cloudinary.com/dkv4zgqvl/image/upload/c_fill,w_355,h_256/v1747139752/kids-kravmaga-class_ku26op.png",
     },
-    {
-        titleKey: "mmaAdults",
-        descKey: "mmaAdultsDesc",
-        image: "https://res.cloudinary.com/dkv4zgqvl/image/upload/c_fill,w_355,h_256/v1747139753/adults-mma-class_pwwhso.png",
-    },
-    {
-        titleKey: "mmaKids",
-        descKey: "mmaKidsDesc",
-        image: "https://res.cloudinary.com/dkv4zgqvl/image/upload/c_fill,w_355,h_256/v1747139756/kids-mma-class_ot8lrc.png",
-    },
+    // {
+    //     titleKey: "mmaAdults",
+    //     descKey: "mmaAdultsDesc",
+    //     image: "https://res.cloudinary.com/dkv4zgqvl/image/upload/c_fill,w_355,h_256/v1747139753/adults-mma-class_pwwhso.png",
+    // },
+    // {
+    //     titleKey: "mmaKids",
+    //     descKey: "mmaKidsDesc",
+    //     image: "https://res.cloudinary.com/dkv4zgqvl/image/upload/c_fill,w_355,h_256/v1747139756/kids-mma-class_ot8lrc.png",
+    // },
 ];
 
 const Classes = () => {
@@ -43,7 +43,7 @@ const Classes = () => {
                 <h1 className="text-4xl sm:text-5xl font-extrabold text-white uppercase tracking-tight mb-4">
                     {t("title")}
                 </h1>
-                <p className="text-gray-400 max-w-2xl mx-auto text-base sm:text-lg">
+                <p className="text-gray-400 max-w-5xl mx-auto text-base sm:text-lg">
                     {t("intro")}
                 </p>
             </div>

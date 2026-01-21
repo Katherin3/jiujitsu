@@ -93,9 +93,9 @@ const MainHeader: React.FC<MainHeaderProps> = memo((props: MainHeaderProps) => {
             <Link href="/" className="hover:text-gray-400">{t('home')}</Link>
             <div className="flex flex-col items-start px-4">
                 <span className="hover:text-gray-400 font-semibold">{t('about')}▼</span>
-                <Link href="/about/team" className="ml-4 mt-1 text-sm hover:text-gray-400">{t('team')}</Link>
+                {/*<Link href="/about/team" className="ml-4 mt-1 text-sm hover:text-gray-400">{t('team')}</Link>*/}
                 <Link href="/about/coaches" className="ml-4 mt-1 text-sm hover:text-gray-400">{t('coaches')}</Link>
-                <Link href="/about/facility" className="ml-4 mt-1 text-sm hover:text-gray-400">{t('facility')}</Link>
+                {/*<Link href="/about/facility" className="ml-4 mt-1 text-sm hover:text-gray-400">{t('facility')}</Link>*/}
             </div>
             <Link href="/classes" className="hover:text-gray-400">{t('classes')}</Link>
             <Link href={`/schedule`} className="hover:text-gray-400">{t('schedule')}</Link>
@@ -144,9 +144,9 @@ const MainHeader: React.FC<MainHeaderProps> = memo((props: MainHeaderProps) => {
                         </button>
                         {aboutOpen && (
                             <div className="absolute left-0 mt-2 w-48 bg-black text-white shadow-md rounded-md z-50">
-                                <Link href="/about/team" className="block px-4 py-2 hover:bg-gray-700">{t('team')}</Link>
+                                {/*<Link href="/about/team" className="block px-4 py-2 hover:bg-gray-700">{t('team')}</Link>*/}
                                 <Link href="/about/coaches" className="block px-4 py-2 hover:bg-gray-700">{t('coaches')}</Link>
-                                <Link href="/about/facility" className="block px-4 py-2 hover:bg-gray-700">{t('facility')}</Link>
+                                {/*<Link href="/about/facility" className="block px-4 py-2 hover:bg-gray-700">{t('facility')}</Link>*/}
                             </div>
                         )}
                     </div>
