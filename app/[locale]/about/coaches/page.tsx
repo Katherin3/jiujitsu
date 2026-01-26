@@ -62,7 +62,7 @@ export default function OurCoachesPage({
   return (
     <div className="mx-auto max-w-5xl px-4 py-10 space-y-10">
       <header className="space-y-3">
-        <h1 className="text-3xl font-bold">Our Coaches</h1>
+        <h1 className="text-4xl sm:text-5xl font-extrabold text-white uppercase tracking-tight mb-4">Our Coaches</h1>
         <p className="text-lg text-gray-200">
           Our coaching staff combines experience, passion and an individual
           approach to help you progress safely and efficiently — whether you’re
@@ -90,7 +90,7 @@ export default function OurCoachesPage({
             {/* Text right */}
             <div className="flex-1 space-y-3">
               <div>
-                <h2 className="text-2xl font-semibold">{coach.name}</h2>
+                <h2 className="text-2xl font-semibold text-white">{coach.name}</h2>
                 <p className="text-sm font-medium text-gray-300">
                   {coach.role}
                 </p>
