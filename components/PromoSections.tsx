@@ -31,7 +31,8 @@ const PromoBlocks: PromoBlock[] = [
     {
         icon: <FaTrophy className="text-red-500" size={40} />,
         promoTitle: 'promoTitleMasterClasses',
-        promoDesc: 'promoDescMasterClasses'
+        promoDesc: 'promoDescMasterClasses',
+        promoButton: { title: 'promoButtonMasterClasses', link: '/masterclass' }
     }
 ];
 
@@ -58,7 +59,7 @@ const PromoSections = () => {
                             <h2 className="text-white uppercase text-lg sm:text-xl font-semibold tracking-wide mb-2">
                                 {t(promoTitle)}
                             </h2>
-                            <p className="text-gray-300 text-sm leading-relaxed">
+                            <p className="text-gray-300 text-sm leading-relaxed whitespace-pre-line">
                                 {t(promoDesc)}
                             </p>
                         </div>

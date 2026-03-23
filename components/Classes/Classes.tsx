@@ -6,22 +6,25 @@ const classList = [
         titleKey: "bjjKids",
         descKey: "bjjKidsDesc",
         image: "https://res.cloudinary.com/dkv4zgqvl/image/upload/c_fill,w_355,h_256/v1747139748/kids-bjj-class_mynw9t.png",
+        link: "/kids-program",
     },
     {
         titleKey: "bjjAdults",
         descKey: "bjjAdultsDesc",
         image: "https://res.cloudinary.com/dkv4zgqvl/image/upload/c_fill,w_355,h_256/v1747139747/adults-bjj-class_ajljxh.png",
+        link: "/adults-bjj",
     },
     {
-        titleKey: "kravAdults",
-        descKey: "kravAdultsDesc",
+        titleKey: "masterclass",
+        descKey: "masterclassDesc",
         image: "https://res.cloudinary.com/dkv4zgqvl/image/upload/c_fill,w_355,h_256/v1747139750/adults-kravmaga-class_yzuvx5.png",
+        link: "/masterclass",
     },
-    {
-        titleKey: "kravKids",
-        descKey: "kravKidsDesc",
-        image: "https://res.cloudinary.com/dkv4zgqvl/image/upload/c_fill,w_355,h_256/v1747139752/kids-kravmaga-class_ku26op.png",
-    },
+    // {
+    //     titleKey: "kravKids",
+    //     descKey: "kravKidsDesc",
+    //     image: "https://res.cloudinary.com/dkv4zgqvl/image/upload/c_fill,w_355,h_256/v1747139752/kids-kravmaga-class_ku26op.png",
+    // },
     // {
     //     titleKey: "mmaAdults",
     //     descKey: "mmaAdultsDesc",
@@ -49,8 +52,8 @@ const Classes = () => {
             </div>
 
             <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
-                {classList.map(({ titleKey, descKey, image }, index) => (
-                    <ClassItem t={t} descKey={descKey} image={image} titleKey={titleKey} index={index} key={index} />
+                {classList.map(({ titleKey, descKey, image, link }, index) => (
+                    <ClassItem t={t} descKey={descKey} image={image} titleKey={titleKey} link={link} index={index} key={index} />
                 ))}
             </div>
 
