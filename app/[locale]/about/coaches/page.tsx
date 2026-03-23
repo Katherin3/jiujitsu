@@ -3,7 +3,7 @@ import { setRequestLocale } from "next-intl/server";
 import { useTranslations } from "next-intl";
 import { use } from "react";
 import { routing } from "@/i18n/routing";
-import Image from "next/image";
+// import Image from "next/image";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
