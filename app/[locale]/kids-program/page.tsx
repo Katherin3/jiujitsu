@@ -1,6 +1,22 @@
+import type { Metadata } from "next";
 import { routing } from "@/i18n/routing";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { use } from "react";
+
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+    const { locale } = await params;
+    const t = await getTranslations({ locale, namespace: 'PageMeta' });
+
+    return {
+        title: t('kidsProgramTitle'),
+        description: t('kidsProgramDescription'),
+        alternates: {
+            canonical: `${baseUrl}/${locale}/kids-program`,
+        },
+    };
+}
 
 export function generateStaticParams() {
     return routing.locales.map((locale) => ({ locale }));

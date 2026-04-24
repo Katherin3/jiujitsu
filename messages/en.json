@@ -1,7 +1,30 @@
 {
     "Metadata": {
         "metaTitle": "GLADIUS - Brazilian Jiu-Jitsu School in Tbilisi",
-        "metaDescription": "GLADIUS is a martial arts school in Tbilisi, Georgia specializing in Brazilian Jiu-Jitsu, Krav Maga, and MMA for all ages and skill levels."
+        "metaDescription": "GLADIUS is a martial arts school in Tbilisi, Georgia specializing in Brazilian Jiu-Jitsu, Krav Maga, and MMA for all ages and skill levels.",
+        "keywords": "Brazilian Jiu-Jitsu, BJJ, Tbilisi, Georgia, martial arts, Krav Maga, MMA, self-defense, kids martial arts, adult BJJ, jiu-jitsu classes"
+    },
+    "PageMeta": {
+        "classesTitle": "Martial Arts Classes",
+        "classesDescription": "Explore our Brazilian Jiu-Jitsu, Krav Maga, and MMA classes for kids and adults at GLADIUS in Tbilisi. Find the perfect program for your skill level.",
+        "scheduleTitle": "Class Schedule",
+        "scheduleDescription": "View the weekly training schedule at GLADIUS BJJ school in Tbilisi. Classes available 7 days a week for all ages.",
+        "contactsTitle": "Contact Us",
+        "contactsDescription": "Get in touch with GLADIUS martial arts school in Tbilisi. Visit us at Pavle Aslanidi Street 21 or call for a free trial class.",
+        "galleryTitle": "Photo Gallery",
+        "galleryDescription": "Browse photos from GLADIUS BJJ training sessions, competitions, and events in Tbilisi, Georgia.",
+        "coachesTitle": "Our Coaches",
+        "coachesDescription": "Meet our experienced coaches at GLADIUS. World champions and certified instructors in Brazilian Jiu-Jitsu and Krav Maga.",
+        "facilityTitle": "About GLADIUS",
+        "facilityDescription": "Learn about GLADIUS martial arts academy in Tbilisi. Established in 2014, we are Georgia's leading BJJ training center.",
+        "teamTitle": "Our Team",
+        "teamDescription": "Meet the GLADIUS team - dedicated athletes and instructors building Georgia's strongest martial arts community.",
+        "adultsBjjTitle": "Adult Brazilian Jiu-Jitsu",
+        "adultsBjjDescription": "Train Brazilian Jiu-Jitsu (Gi and No-Gi) for adults at GLADIUS in Tbilisi. Learn from world champions in a supportive environment.",
+        "kidsProgramTitle": "Kids Martial Arts Program",
+        "kidsProgramDescription": "Enroll your child in our kids Brazilian Jiu-Jitsu program at GLADIUS Tbilisi. Building confidence, discipline, and fitness.",
+        "masterclassTitle": "Masterclasses & Corporate Training",
+        "masterclassDescription": "Book professional Krav Maga and BJJ masterclasses for organizations, security services, and corporate teams at GLADIUS."
     },
     "MainHeader": {
         "home": "Home",
@@ -44,7 +67,16 @@
         "masterclass": "Masterclass",
         "bjjKidsDesc": "Gladius Club is the central Tbilisi club of the Georgian National Brazilian Jiu-Jitsu Federation, where a special unified development program has been created for children.",
         "bjjAdultsDesc": "Gi is the traditional form of Brazilian Jiu-Jitsu, focused on technical precision, positional control, and strategic thinking. No-Gi is a fast-paced and dynamic style that closely reflects real-life conditions.",
-        "masterclassDesc": ""
+        "masterclassDesc": "",
+        "readMore": "Learn more"
+    },
+    "KidsProgram": {
+        "title": "Kids Program",
+        "description": "Our kids program focuses on building confidence, discipline, and physical fitness through Brazilian Jiu-Jitsu. Children learn self-defense skills in a safe, supportive environment while developing coordination, teamwork, and respect."
+    },
+    "AdultsBjj": {
+        "title": "Adult Brazilian Jiu-Jitsu",
+        "description": "Train Brazilian Jiu-Jitsu for adults in both Gi and No-Gi formats. Our program is designed for all skill levels, from complete beginners to advanced practitioners. Learn effective grappling techniques, improve your fitness, and join our supportive community."
     },
     "Footer": {
         "address": "Pavle Aslanidi Street 21, Tbilisi, Georgia",
@@ -52,10 +84,10 @@
     },
     "PromoSections": {
         "promoTitleFree": "Free Training",
-        "promoDescFree": "Do you want to try a new sport and feel the true fighting spirit?\nThe “Gladius” club offers you the opportunity to attend one completely free trial training session.\n\nCome and challenge yourself, experience an energetic and friendly sports environment, meet our professional trainers, and see how the training process works.\nThis is the best way to discover for yourself how interesting, dynamic, and beneficial this activity can be for you.\n\nCome once — and decide for yourself whether “Gladius” is your place. \uD83D\uDCAA",
+        "promoDescFree": "Do you want to try a new sport and feel the true fighting spirit?\nThe Gladius club offers you the opportunity to attend one completely free trial training session.\n\nCome and challenge yourself, experience an energetic and friendly sports environment, meet our professional trainers, and see how the training process works.\nThis is the best way to discover for yourself how interesting, dynamic, and beneficial this activity can be for you.\n\nCome once - and decide for yourself whether Gladius is your place.",
         "promoButton": "Contact us",
         "promoTitleIndividual": "Individual Trainings",
-        "promoDescIndividual": "The “Gladius” club offers personal training sessions for all ages — children, teenagers, and adults.\nAn individual approach, full attention from the trainer, and faster progress.\n\nWork on yourself more effectively — with personal training at “Gladius.” \uD83D\uDCAA \n\n We offer personalized training programs for both adults and children:\n\uD83E\uDD4B Brazilian Jiu-Jitsu\n\uD83E\uDD4A Boxing\n\uD83E\uDD4A Krav Maga (self-defense)\n\uD83E\uDD3C MMA\n\n",
+        "promoDescIndividual": "The Gladius club offers personal training sessions for all ages - children, teenagers, and adults.\nAn individual approach, full attention from the trainer, and faster progress.\n\nWork on yourself more effectively - with personal training at Gladius.\n\nWe offer personalized training programs for both adults and children:\n- Brazilian Jiu-Jitsu\n- Boxing\n- Krav Maga (self-defense)\n- MMA",
         "promoButtonDetails": "More details",
         "promoTitleSchedule": "Classes 7 days a week",
         "promoDescSchedule": "Classes are held 7 days a week, with the possibility of choosing the time and day of classes. We are always happy to see you at training!",
@@ -66,7 +98,7 @@
     },
     "Masterclass": {
         "title": "Masterclass",
-        "description": "🥊 Krav Maga Masterclasses (Self-Defense)\nI conduct practical Krav Maga masterclasses for various organizations, companies, and security services. The programs are designed around real-life threats and focus on improving employee safety and preparedness.\n\nMasterclasses are suitable for:\n• Corporate organizations\n• Security and protection services\n• Educational and specialized programs\n\nThe program includes:\n• Responses to real-life attacks\n• Defense against armed and unarmed attackers\n• Effective actions under stress\n• Team coordination and situational awareness\n\nBenefits for the organizer:\n• Improved employee safety\n• A practical and professional training program\n• Increased team motivation and responsibility\n\nResults for employees:\n• Increased self-confidence\n• Ability to react effectively in critical situations\n• Improved stress management\n• Practical skills applicable in daily life\n\n🥋 Brazilian Jiu-Jitsu Masterclasses\nI conduct Brazilian Jiu-Jitsu masterclasses for organizations focused on the physical and mental development of their teams. The program is based on control, balance, and strategic thinking.\n\nIdeal for:\n• Corporate teams\n• Security and special services\n• Sports and educational projects\n\nThe program includes:\n• Body control and safe grappling techniques\n• Efficient use of strength\n• Development of focus and discipline\n• Teamwork skills\n\nBenefits for the organizer:\n• Increased physical and mental resilience of employees\n• Stronger team cohesion\n• A unique and non-standard training format\n\nResults for employees:\n• Better body control\n• Reduced stress levels\n• Improved concentration\n• Enhanced physical fitness and mental toughness"
+        "description": "Krav Maga Masterclasses (Self-Defense)\nI conduct practical Krav Maga masterclasses for various organizations, companies, and security services. The programs are designed around real-life threats and focus on improving employee safety and preparedness.\n\nMasterclasses are suitable for:\n- Corporate organizations\n- Security and protection services\n- Educational and specialized programs\n\nThe program includes:\n- Responses to real-life attacks\n- Defense against armed and unarmed attackers\n- Effective actions under stress\n- Team coordination and situational awareness\n\nBenefits for the organizer:\n- Improved employee safety\n- A practical and professional training program\n- Increased team motivation and responsibility\n\nResults for employees:\n- Increased self-confidence\n- Ability to react effectively in critical situations\n- Improved stress management\n- Practical skills applicable in daily life\n\nBrazilian Jiu-Jitsu Masterclasses\nI conduct Brazilian Jiu-Jitsu masterclasses for organizations focused on the physical and mental development of their teams. The program is based on control, balance, and strategic thinking.\n\nIdeal for:\n- Corporate teams\n- Security and special services\n- Sports and educational projects\n\nThe program includes:\n- Body control and safe grappling techniques\n- Efficient use of strength\n- Development of focus and discipline\n- Teamwork skills\n\nBenefits for the organizer:\n- Increased physical and mental resilience of employees\n- Stronger team cohesion\n- A unique and non-standard training format\n\nResults for employees:\n- Better body control\n- Reduced stress levels\n- Improved concentration\n- Enhanced physical fitness and mental toughness"
     },
     "About": {
         "aboutTitle": "We are GLADIUS",
@@ -75,8 +107,13 @@
     "Coaches": {
         "title": "Our Coaches",
         "coach1Name": "Giorgi Oboladze",
-        "coach1Role": "Founder & Head Coach – Club Gladius | Jiu-Jitsu Black Belt (IV Dan) | World Champion",
-        "coach1Alt": "Founder & Head Coach – Club Gladius",
-        "coach1Description": "Giorgi Oboladze is one of the pioneers of Brazilian Jiu-Jitsu in Georgia and a key figure in the development of this sport. He was the first to start the systematic development of Brazilian Jiu-Jitsu in Georgia and opened a Brazilian Jiu-Jitsu academy in 2014. He is the President of the National Federation of Brazilian Jiu-Jitsu of Georgia (since 2023) and the founder of the Georgia Jiu-Jitsu Tour (2022) — a platform that has played a significant role in establishing a competitive professional Jiu-Jitsu environment in Georgia. In 2014, Giorgi Oboladze founded Club Gladius, which today is one of the leading martial arts academies in Georgia. As the head coach, he creates a high-level system of technical, physical, and mental training based on discipline, strategy, and continuous development. Giorgi Oboladze holds a Jiu-Jitsu Black Belt — IV Dan and is a World Champion and winner of many other international tournaments (Japanese Jiu-Jitsu), as well as a professional Krav Maga instructor with many years of experience in special physical training and tactical professional exercises. In parallel with his sports activities, he is the Chief Specialist for Construction, Standardization, and Occupational Safety at SOCAR Georgia Gas nationwide. Giorgi Oboladze holds a higher education degree and is a doctoral candidate. His work combines sports achievements, instructorship, and strategic leadership, making him one of the most prominent figures in martial arts in Georgia."
+        "coach1Role": "Founder & Head Coach - Club Gladius | Jiu-Jitsu Black Belt (IV Dan) | World Champion",
+        "coach1Alt": "Founder & Head Coach - Club Gladius",
+        "coach1Description": "Giorgi Oboladze is one of the pioneers of Brazilian Jiu-Jitsu in Georgia and a key figure in the development of this sport. He was the first to start the systematic development of Brazilian Jiu-Jitsu in Georgia and opened a Brazilian Jiu-Jitsu academy in 2014. He is the President of the National Federation of Brazilian Jiu-Jitsu of Georgia (since 2023) and the founder of the Georgia Jiu-Jitsu Tour (2022) - a platform that has played a significant role in establishing a competitive professional Jiu-Jitsu environment in Georgia. In 2014, Giorgi Oboladze founded Club Gladius, which today is one of the leading martial arts academies in Georgia. As the head coach, he creates a high-level system of technical, physical, and mental training based on discipline, strategy, and continuous development. Giorgi Oboladze holds a Jiu-Jitsu Black Belt - IV Dan and is a World Champion and winner of many other international tournaments (Japanese Jiu-Jitsu), as well as a professional Krav Maga instructor with many years of experience in special physical training and tactical professional exercises. In parallel with his sports activities, he is the Chief Specialist for Construction, Standardization, and Occupational Safety at SOCAR Georgia Gas nationwide. Giorgi Oboladze holds a higher education degree and is a doctoral candidate. His work combines sports achievements, instructorship, and strategic leadership, making him one of the most prominent figures in martial arts in Georgia."
+    },
+    "NotFound": {
+        "title": "Page Not Found",
+        "description": "The page you are looking for does not exist or has been moved.",
+        "backHome": "Back to Home"
     }
 }

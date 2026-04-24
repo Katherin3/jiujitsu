@@ -11,3 +11,4 @@ export { RussianFlag } from './MainHeader/Flags';
 export { UsaFlag } from './MainHeader/Flags';
 export { default as Footer } from './Footer/Footer';
 export { default as SocialNetworks } from './common/SocialNetworks';
+export { StructuredData } from './StructuredData';

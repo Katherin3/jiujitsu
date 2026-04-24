@@ -6,7 +6,7 @@ import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { routing } from '@/i18n/routing';
 import { setRequestLocale, getTranslations } from "next-intl/server";
-
+import { StructuredData } from "@/components/StructuredData";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -18,13 +18,85 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const getBaseUrl = () => {
+  const envUrl = process.env.NEXT_PUBLIC_SITE_URL;
+  if (envUrl) {
+    // Ensure URL has protocol
+    if (envUrl.startsWith('http://') || envUrl.startsWith('https://')) {
+      return envUrl;
+    }
+    return `https://${envUrl}`;
+  }
+  return 'http://localhost:3000';
+};
+
+const baseUrl = getBaseUrl();
+
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Metadata' });
 
+  const title = t('metaTitle');
+  const description = t('metaDescription');
+  const url = `${baseUrl}/${locale}`;
+
+  const alternateLanguages: Record<string, string> = {};
+  for (const loc of routing.locales) {
+    alternateLanguages[loc] = `${baseUrl}/${loc}`;
+  }
+
   return {
-    title: t('metaTitle'),
-    description: t('metaDescription'),
+    title: {
+      default: title,
+      template: `%s | GLADIUS`,
+    },
+    description,
+    keywords: t('keywords'),
+    authors: [{ name: 'GLADIUS BJJ' }],
+    creator: 'GLADIUS',
+    publisher: 'GLADIUS',
+    metadataBase: new URL(baseUrl),
+    alternates: {
+      canonical: url,
+      languages: alternateLanguages,
+    },
+    openGraph: {
+      type: 'website',
+      locale: locale === 'ka' ? 'ka_GE' : locale === 'ru' ? 'ru_RU' : 'en_US',
+      url,
+      siteName: 'GLADIUS',
+      title,
+      description,
+      images: [
+        {
+          url: `${baseUrl}/og-image.jpg`,
+          width: 1200,
+          height: 630,
+          alt: 'GLADIUS - Brazilian Jiu-Jitsu School in Tbilisi',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [`${baseUrl}/og-image.jpg`],
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+      },
+    },
+    verification: {
+      // Add your verification codes here when available
+      // google: 'your-google-verification-code',
+    },
   };
 }
 
@@ -49,7 +121,10 @@ export default async function RootLayout({
   setRequestLocale(locale);
 
   return (
-    <html lang="en">
+    <html lang={locale}>
+      <head>
+        <StructuredData locale={locale} />
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <NextIntlClientProvider>
           <div className="flex min-h-screen flex-col">

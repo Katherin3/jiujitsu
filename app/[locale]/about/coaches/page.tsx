@@ -1,9 +1,24 @@
 // app/[locale]/about/coaches/page.tsx
-import { setRequestLocale } from "next-intl/server";
+import type { Metadata } from "next";
+import { setRequestLocale, getTranslations } from "next-intl/server";
 import { useTranslations } from "next-intl";
 import { use } from "react";
 import { routing } from "@/i18n/routing";
-// import Image from "next/image";
+
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'PageMeta' });
+
+  return {
+    title: t('coachesTitle'),
+    description: t('coachesDescription'),
+    alternates: {
+      canonical: `${baseUrl}/${locale}/about/coaches`,
+    },
+  };
+}
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -42,17 +57,6 @@ export default function OurCoachesPage({
             key={coach.nameKey}
             className="flex flex-col gap-6 rounded-2xl border border-gray-700 bg-black/40 p-4 md:flex-row md:p-6"
           >
-            {/* Photo left */}
-            {/*<div className="relative h-64 w-full overflow-hidden rounded-xl md:h-48 md:w-56 shrink-0">*/}
-            {/*  <Image*/}
-            {/*    src={coach.src}*/}
-            {/*    alt={t(coach.altKey)}*/}
-            {/*    fill*/}
-            {/*    sizes="(max-width: 768px) 100vw, 230px"*/}
-            {/*    className="object-cover"*/}
-            {/*  />*/}
-            {/*</div>*/}
-
             {/* Text right */}
             <div className="flex-1 space-y-3">
               <div>

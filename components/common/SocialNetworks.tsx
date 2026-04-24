@@ -2,8 +2,8 @@ import { memo } from "react";
 import { FaFacebookF, FaInstagram, FaTelegramPlane, FaWhatsapp, FaEnvelope } from "react-icons/fa";
 
 const socialLinks = [
-    { href: "https://www.facebook.com/GladiusFightAcademy", icon: FaFacebookF, title: "Facebook" },
-    { href: "https://www.instagram.com/gladius.fight.academy/", icon: FaInstagram, title: "Instagram" },
+    { href: "https://www.facebook.com/GladiusBrazilianJiuJitsu", icon: FaFacebookF, title: "Facebook" },
+    { href: "https://www.instagram.com/gladius_bjj_tbilisi/", icon: FaInstagram, title: "Instagram" },
     { href: "https://t.me", icon: FaTelegramPlane, title: "Telegram" },
     { href: "https://wa.me", icon: FaWhatsapp, title: "WhatsApp" },
     { href: "mailto:gladiusjiujitsu@gmail.com", icon: FaEnvelope, title: "Email" },
