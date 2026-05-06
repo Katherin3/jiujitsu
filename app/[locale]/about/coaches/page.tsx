@@ -4,6 +4,7 @@ import { setRequestLocale, getTranslations } from "next-intl/server";
 import { useTranslations } from "next-intl";
 import { use } from "react";
 import { routing } from "@/i18n/routing";
+import Image from "next/image";
 
 const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
 
@@ -38,7 +39,7 @@ export default function OurCoachesPage({
     {
       nameKey: "coach1Name",
       roleKey: "coach1Role",
-      src: "/images/coaches/bjj-head-coach.jpg",
+      src: "https://res.cloudinary.com/dkd3pytpy/image/upload/2_pa43aj",
       altKey: "coach1Alt",
       descriptionKey: "coach1Description",
       highlights: [],
@@ -57,6 +58,16 @@ export default function OurCoachesPage({
             key={coach.nameKey}
             className="flex flex-col gap-6 rounded-2xl border border-gray-700 bg-black/40 p-4 md:flex-row md:p-6"
           >
+            {/* Image left */}
+            <div className="relative w-full md:w-64 aspect-[3/4] flex-shrink-0 overflow-hidden rounded-xl">
+              <Image
+                src={coach.src}
+                alt={t(coach.altKey)}
+                fill
+                sizes="(max-width: 768px) 100vw, 256px"
+                className="object-cover"
+              />
+            </div>
             {/* Text right */}
             <div className="flex-1 space-y-3">
               <div>

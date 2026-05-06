@@ -25,7 +25,7 @@ const Contacts = () => {
                     <div className="w-full rounded-2xl overflow-hidden shadow-xl border border-white/10">
                         <a href="https://maps.app.goo.gl/rv7UvDRUg6bKnkhd8" target="_blank" title="Map" rel="noopener noreferrer">
                             <Image
-                                src="https://res.cloudinary.com/dkv4zgqvl/image/upload/v1747134053/map_iv4hfi.png"
+                                src="https://res.cloudinary.com/dkd3pytpy/image/upload/map_iv4hfi_rj8h6v"
                                 alt="Map location"
                                 width={800}
                                 height={600}

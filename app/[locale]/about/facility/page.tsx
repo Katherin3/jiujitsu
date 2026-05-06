@@ -1,6 +1,7 @@
 // app/[locale]/about/facility/page.tsx
 import type { Metadata } from "next";
 import { setRequestLocale, getTranslations } from "next-intl/server";
+import { useTranslations } from "next-intl";
 import { use } from "react";
 import { routing } from "@/i18n/routing";
 import Image from "next/image";
@@ -30,86 +31,54 @@ export default function OurFacilityPage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = use(params);
-
   setRequestLocale(locale);
+  const t = useTranslations('Facility');
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
       {/* Hero image */}
-      <div className="relative w-full h-64 sm:h-80 lg:h-96 overflow-hidden rounded-2xl border border-gray-700">
-        <Image
-          src="/images/facility/hero-mats.jpg"
-          alt="Training mats and facility overview"
-          fill
-          sizes="100vw"
-          className="object-cover"
-        />
-        <div className="absolute inset-0 bg-black/40 flex items-end">
-          <div className="p-4 sm:p-6">
-            <h1 className="text-3xl sm:text-4xl font-bold mb-2">
-              Our Facility
-            </h1>
-            <p className="text-sm sm:text-base text-gray-200 max-w-xl">
-              Clean mats, comfortable changing rooms and a welcoming space
-              created for focused training.
-            </p>
-          </div>
-        </div>
+      <div className="relative w-full h-64 sm:h-80 lg:h-[1000px] overflow-hidden rounded-2xl border border-gray-700">
+          <Image src="https://res.cloudinary.com/dkd3pytpy/image/upload/5_mnedq3" width={1899} height={1792} alt="IBJJF"  />
       </div>
 
-      {/* Sections */}
-      <div className="grid gap-6 md:grid-cols-3">
-        {/* Mat Area */}
-        <div className="rounded-xl border border-gray-700 p-4 bg-black/40">
-          <div className="relative w-full h-40 mb-3 overflow-hidden rounded-lg">
-            <Image
-              src="/images/facility/mat-area.jpg"
-              alt="Mat area"
-              fill
-              sizes="(max-width: 768px) 100vw, 33vw"
-              className="object-cover"
-            />
-          </div>
-          <h2 className="font-semibold text-xl mb-1">Mat Area</h2>
-          <p className="mt-2 text-sm text-gray-400">
-            Clean, spacious mats with regular disinfection and enough room
-            for both classes and sparring.
-          </p>
-        </div>
+      {/* Title and text */}
+      <div className="space-y-4">
+        <h1 className="text-3xl sm:text-4xl font-bold text-gray-300">
+          {t('title')}
+        </h1>
+        <p className="text-base sm:text-lg text-gray-300 whitespace-pre-line">
+          {t('subtitle')}
+        </p>
+      </div>
 
-        {/* Changing rooms */}
-        <div className="rounded-xl border border-gray-700 p-4 bg-black/40">
-          <div className="relative w-full h-40 mb-3 overflow-hidden rounded-lg">
-            <Image
-              src="/images/facility/changing-rooms.jpg"
-              alt="Changing rooms"
-              fill
-              sizes="(max-width: 768px) 100vw, 33vw"
-              className="object-cover"
-            />
-          </div>
-          <h2 className="font-semibold text-xl mb-1">Changing Rooms</h2>
-          <p className="mt-2 text-sm text-gray-400">
-            Separate changing areas with showers and space for your gear.
-          </p>
+      {/* Small images row */}
+      <div className="grid grid-cols-3 gap-4">
+        <div className="relative aspect-[4/3] overflow-hidden rounded-xl border border-gray-700">
+          <Image
+            src="https://res.cloudinary.com/dkd3pytpy/image/upload/1jpg_vrtaip"
+            alt={t('matAreaTitle')}
+            fill
+            sizes="(max-width: 768px) 33vw, 33vw"
+            className="object-cover"
+          />
         </div>
-
-        {/* Extras */}
-        <div className="rounded-xl border border-gray-700 p-4 bg-black/40">
-          <div className="relative w-full h-40 mb-3 overflow-hidden rounded-lg">
-            <Image
-              src="/images/facility/reception.jpg"
-              alt="Reception and lounge area"
-              fill
-              sizes="(max-width: 768px) 100vw, 33vw"
-              className="object-cover"
-            />
-          </div>
-          <h2 className="font-semibold text-xl mb-1">Extras</h2>
-          <p className="mt-2 text-sm text-gray-400">
-            Reception area, seating, and everything needed to make your time
-            before and after class comfortable.
-          </p>
+        <div className="relative aspect-[4/3] overflow-hidden rounded-xl border border-gray-700">
+          <Image
+            src="https://res.cloudinary.com/dkd3pytpy/image/upload/3_iqmfbj"
+            alt={t('changingRoomsTitle')}
+            fill
+            sizes="(max-width: 768px) 33vw, 33vw"
+            className="object-cover"
+          />
+        </div>
+        <div className="relative aspect-[4/3] overflow-hidden rounded-xl border border-gray-700">
+          <Image
+            src="https://res.cloudinary.com/dkd3pytpy/image/upload/7_iovujj"
+            alt={t('extrasTitle')}
+            fill
+            sizes="(max-width: 768px) 33vw, 33vw"
+            className="object-cover"
+          />
         </div>
       </div>
     </div>

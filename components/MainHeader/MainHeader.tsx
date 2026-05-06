@@ -83,7 +83,7 @@ const MainHeader: React.FC<MainHeaderProps> = memo((props: MainHeaderProps) => {
 
     const logoCenterimage: JSX.Element = useMemo((): JSX.Element => {
         return (<Link href="/">
-            <Image src="https://res.cloudinary.com/dkv4zgqvl/image/upload/c_pad,w_60,h_60,ar_1:1/v1747134176/logo192_fjgzrl.png" alt="Logo" width={60} height={60} />
+            <Image src="https://res.cloudinary.com/dkd3pytpy/image/upload/c_pad,w_60,h_60,ar_1:1/logo192_fjgzrl_skgtuq" alt="Logo" width={60} height={60} />
         </Link>);
     }, []);
 

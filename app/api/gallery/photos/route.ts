@@ -1,22 +1,13 @@
 export const dynamic = "force-dynamic";
 
-
 import { NextResponse } from "next/server";
 import { getPhotos } from "@/lib/cloudinary";
 
-export async function GET(request: Request) {
-    const { searchParams } = new URL(request.url);
-    const folder = searchParams.get("folder");
+const GALLERY_FOLDER = "PhotoGallery";
 
-    if (!folder) {
-        return NextResponse.json(
-            { error: "Missing 'folder' query param" },
-            { status: 400 },
-        );
-    }
-
+export async function GET() {
     try {
-        const photos = await getPhotos(folder);
+        const photos = await getPhotos(GALLERY_FOLDER);
         return NextResponse.json({ photos });
     } catch (err) {
         console.error("Error fetching photos from Cloudinary", err);
