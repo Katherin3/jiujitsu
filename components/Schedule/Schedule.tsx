@@ -26,7 +26,7 @@ const ScheduleTable: React.FC = () => {
 
   const t = useTranslations('Schedule');
 
-  const days: string[] = [t('mon'), t('tue'), t('wed'), t('thu'), t('fri'), t('sat')];
+  const days: string[] = [t('mon'), t('tue'), t('wed'), t('thu'), t('fri'), t('sat'), t('sun')];
 
   const schedule: ScheduleCell[][] = scheduleJson.map((row) =>
     row.map((cell) => ({
