@@ -24,7 +24,11 @@
         "kidsProgramTitle": "Kids Martial Arts Program",
         "kidsProgramDescription": "Enroll your child in our kids Brazilian Jiu-Jitsu program at GLADIUS Tbilisi. Building confidence, discipline, and fitness.",
         "masterclassTitle": "Masterclasses & Corporate Training",
-        "masterclassDescription": "Book professional Krav Maga and BJJ masterclasses for organizations, security services, and corporate teams at GLADIUS."
+        "masterclassDescription": "Book professional Krav Maga and BJJ masterclasses for organizations, security services, and corporate teams at GLADIUS.",
+        "yangAdultsBjjTitle": "Adult Brazilian Jiu-Jitsu (GI / NO GI)",
+        "yangAdultsBjjDescription": "Train Brazilian Jiu-Jitsu (Gi and No-Gi) for adults at GLADIUS in Tbilisi. Learn from world champions in a truly international environment.",
+        "kravMagaTitle": "Krav Maga Self-Defense",
+        "kravMagaDescription": "Learn Krav Maga self-defense at GLADIUS in Tbilisi. Modern self-defense system for real-life situations taught by professional military instructors."
     },
     "MainHeader": {
         "home": "Home",
@@ -62,21 +66,33 @@
     "Classes": {
         "title": "Our Classes",
         "intro": "",
-        "bjjKids": "Kids Program",
-        "bjjAdults": "Adult Brazilian Jiu-Jitsu (GI/NO GI)",
-        "masterclass": "Masterclass",
-        "bjjKidsDesc": "Gladius Club is the central Tbilisi club of the Georgian National Brazilian Jiu-Jitsu Federation, where a special unified development program has been created for children.",
-        "bjjAdultsDesc": "Gi is the traditional form of Brazilian Jiu-Jitsu, focused on technical precision, positional control, and strategic thinking. No-Gi is a fast-paced and dynamic style that closely reflects real-life conditions.",
-        "masterclassDesc": "",
+        "bjjKids": "Free Jiu-Jitsu | Kids Group Ages 3–5",
+        "bjjAdults": "6-14 Year - Children's Program",
+        "masterclass": "Private Training | Personalized Development for Maximum Results",
+        "bjjKidsDesc": "At Gladius, a special Pre Jiu-Jitsu  program has been created for children aged 3–5, where learning takes place through movement, games, and a positive environment.",
+        "bjjAdultsDesc": "For children aged 6–14, Gladius has developed a unique and comprehensive training program that combines Brazilian Jiu-Jitsu with GI & NO-GI, Krav Maga, Judo fundamentals, sports psychology, coordination, and balance development.",
+        "masterclassDesc": "At Gladius, private training sessions are available for both children and adults in Brazilian Jiu-Jitsu (GI / NO-GI) and Krav Maga.",
+        "bjjYangAdults": "Brazilian Jiu-Jitsu (GI / NO GI)",
+        "bjjYangAdultsDesc": "Gladius is one of the largest and most international Brazilian Jiu-Jitsu academies in Georgia. Founded in 2014, it became the first academy in the country to professionally develop and systematically teach Brazilian Jiu-Jitsu.",
+        "kravMaga": "Krav Maga | Real Self-Defense for Real Situations",
+        "kravMagaDesc": "At Gladius, Krav Maga is not just a martial art — it is a modern self-defense system designed for real-life situations, extreme conditions, and high-stress environments where fast, effective, and intelligent reactions are critical.",
         "readMore": "Learn more"
     },
     "KidsProgram": {
-        "title": "Kids Program",
-        "description": "Our kids program focuses on building confidence, discipline, and physical fitness through Brazilian Jiu-Jitsu. Children learn self-defense skills in a safe, supportive environment while developing coordination, teamwork, and respect."
+        "title": "Free Jiu-Jitsu | Kids Group Ages 3–5",
+        "description": "At Gladius, a special Pre Jiu-Jitsu  program has been created for children aged 3–5, where learning takes place through movement, games, and a positive environment.\n\nThe program is focused not only on physical development, but also on mental and emotional growth. Specially designed exercises improve motor skills, balance, coordination, concentration, and body control. At this age, particular attention is given to developing the harmonious cooperation of the brain’s left and right hemispheres, helping children improve quick thinking, focus, decision-making, and creativity.\n\nIn a safe and friendly environment, children are introduced to the basic elements of Jiu-Jitsu and Judo while also learning discipline, responsibility, listening skills, and positive behavior patterns.\n\nTraining sessions are conducted under the supervision of professional instructors, where every activity is designed to support the child’s physical, intellectual, and psychological development.\n\nThe mission of Gladius is to help children grow into healthy, confident, active, and disciplined individuals who can succeed both in sports and in life."
     },
     "AdultsBjj": {
-        "title": "Adult Brazilian Jiu-Jitsu",
-        "description": "Train Brazilian Jiu-Jitsu for adults in both Gi and No-Gi formats. Our program is designed for all skill levels, from complete beginners to advanced practitioners. Learn effective grappling techniques, improve your fitness, and join our supportive community."
+        "title": "6-14 Year - Children's Program",
+        "description": "For children aged 6–14, Gladius has developed a unique and comprehensive training program that combines Brazilian Jiu-Jitsu with GI & NO-GI, Krav Maga, Judo fundamentals, sports psychology, coordination, and balance development.\n\nThe main goal of the program is not only to develop strong and technical athletes, but also to shape disciplined, confident, determined, and successful individuals. Training sessions are conducted under the supervision of professional instructors, sports psychologists, and physical development specialists, helping children develop leadership skills, teamwork, quick thinking and reaction, patience, emotional resilience, and a high level of discipline.\n\nThe mission of Gladius is to raise not only champions in sports, but strong individuals for life."
+    },
+    "bjjYangAdults": {
+      "title": "Brazilian Jiu-Jitsu (GI / NO GI)",
+      "description": "Gladius is one of the largest and most international Brazilian Jiu-Jitsu academies in Georgia. Founded in 2014, it became the first academy in the country to professionally develop and systematically teach Brazilian Jiu-Jitsu.\n\nThe academy teaches both GI and NO-GI Brazilian Jiu-Jitsu. Gladius is the official representative of Gracie Barra in Georgia — one of the world’s most recognized Brazilian Jiu-Jitsu organizations. Belt promotions are conducted according to the official Gracie Barra curriculum and international certification standards.\n\nAll classes are conducted simultaneously in three languages — Georgian, English, and Russian — creating a truly international training environment. Today, athletes from 34 different nationalities train at Gladius, including both girls and boys, children and adults.\n\nThe academy’s international standard is strengthened by a multinational coaching team consisting of professional instructors from Georgia, Brazil, Azerbaijan, and Argentina.\n\nThe mission of Gladius is not only to build strong athletes and champions, but also to develop disciplined, confident, and successful individuals. Training helps students improve not only physical abilities, but also mental resilience, leadership, self-control, respect, teamwork, and fast decision-making skills.\n\nToday, Gladius stands as one of the largest and fastest-growing martial arts academies in Georgia, where sport, education, discipline, and international experience come together in one place.\n\n"
+    },
+    "kravMaga": {
+      "title": "Krav Maga | Real Self-Defense for Real Situations",
+      "description": "At Gladius, Krav Maga is not just a martial art — it is a modern self-defense system designed for real-life situations, extreme conditions, and high-stress environments where fast, effective, and intelligent reactions are critical.\n\nTraining is conducted by professional military and tactical Krav Maga instructors with real operational and combat experience. The program is designed for both women and men, helping students develop not only self-defense skills, but also confidence, mental resilience, awareness, and quick decision-making abilities.\n\nOur Krav Maga system is divided into two main directions:\n\n\uD83D\uDD39 Civilian Defensive Krav Maga — focused on realistic street self-defense, personal safety, protecting loved ones, conflict control, and escaping dangerous situations safely. The system is based on maximum effectiveness with minimum necessary damage.\n\n\uD83D\uDD39 Special & Tactical Krav Maga — an advanced tactical program for military personnel, security professionals, and representatives of special services. It includes tactical movement, operational response, combat scenarios, and specialized physical preparation. Offensive military Krav Maga is not taught to civilians unless they officially represent special units or security structures.\n\nGladius Krav Maga includes much more than self-defense techniques:\n\n• Professional punching and kicking techniques\n• Balance and coordination development\n• CrossFit and tactical physical conditioning\n• Endurance and speed training\n• Fast reaction and situational analysis\n• Mental toughness and stress management\n• Tactical and team-based training\n\nOur mission is to help every student become capable of protecting themselves while remaining calm, controlled, and confident under pressure.\n\nAt Gladius, Krav Maga means safety, strength, discipline, and readiness for real life."
     },
     "Footer": {
         "address": "Pavle Aslanidi Street 21, Tbilisi, Georgia",
@@ -97,8 +113,8 @@
         "promoButtonMasterClasses": "Learn more"
     },
     "Masterclass": {
-        "title": "Masterclass",
-        "description": "Krav Maga Masterclasses (Self-Defense)\nI conduct practical Krav Maga masterclasses for various organizations, companies, and security services. The programs are designed around real-life threats and focus on improving employee safety and preparedness.\n\nMasterclasses are suitable for:\n- Corporate organizations\n- Security and protection services\n- Educational and specialized programs\n\nThe program includes:\n- Responses to real-life attacks\n- Defense against armed and unarmed attackers\n- Effective actions under stress\n- Team coordination and situational awareness\n\nBenefits for the organizer:\n- Improved employee safety\n- A practical and professional training program\n- Increased team motivation and responsibility\n\nResults for employees:\n- Increased self-confidence\n- Ability to react effectively in critical situations\n- Improved stress management\n- Practical skills applicable in daily life\n\nBrazilian Jiu-Jitsu Masterclasses\nI conduct Brazilian Jiu-Jitsu masterclasses for organizations focused on the physical and mental development of their teams. The program is based on control, balance, and strategic thinking.\n\nIdeal for:\n- Corporate teams\n- Security and special services\n- Sports and educational projects\n\nThe program includes:\n- Body control and safe grappling techniques\n- Efficient use of strength\n- Development of focus and discipline\n- Teamwork skills\n\nBenefits for the organizer:\n- Increased physical and mental resilience of employees\n- Stronger team cohesion\n- A unique and non-standard training format\n\nResults for employees:\n- Better body control\n- Reduced stress levels\n- Improved concentration\n- Enhanced physical fitness and mental toughness"
+        "title": "MasterclassPrivate Training | Personalized Development for Maximum Results",
+        "description": "At Gladius, private training sessions are available for both children and adults in Brazilian Jiu-Jitsu (GI / NO-GI) and Krav Maga.\n\nEach personal training program is fully customized according to the student’s goals, physical abilities, experience, and development pace. This approach allows students to improve technique, physical conditioning, mental resilience, and confidence much faster and more effectively.\n\nPrivate sessions are especially effective for:\n\n• Beginners — to learn techniques correctly and faster\n• Professional athletes — preparing for competitions and high-level tournaments\n• Children — developing discipline, concentration, and coordination\n• Krav Maga students — improving real-life self-defense skills\n• Physical fitness, endurance, and functional conditioning\n\nTraining is conducted under the supervision of professional instructors and includes technical, tactical, physical, and psychological preparation. Every program is individually designed to meet the athlete’s specific needs.\n\nThe cost of private training depends on:\n• The athlete’s age\n• Experience and skill level\n• Training frequency\n• Session duration and program specifics\n\nGladius private programs are designed for those who seek faster progress, maximum attention, and high-level results in a safe and professional environment."
     },
     "About": {
         "aboutTitle": "We are GLADIUS",

@@ -15,16 +15,23 @@ const classList = [
         link: "/adults-bjj",
     },
     {
+        titleKey: "bjjYangAdults",
+        descKey: "bjjYangAdultsDesc",
+        image: "https://res.cloudinary.com/dkd3pytpy/image/upload/c_fill,w_355,h_256/adults-bjj-class_ajljxh_e2rn8x",
+        link: "/yang-adults-bjj",
+    },
+    {
+        titleKey: "kravMaga",
+        descKey: "kravMagaDesc",
+        image: "https://res.cloudinary.com/dkd3pytpy/image/upload/c_fill,w_355,h_256/adults-bjj-class_ajljxh_e2rn8x",
+        link: "/krav-maga",
+    },
+    {
         titleKey: "masterclass",
         descKey: "masterclassDesc",
         image: "https://res.cloudinary.com/dkd3pytpy/image/upload/c_fill,w_355,h_256/adults-kravmaga-class_yzuvx5_njcpr8",
         link: "/masterclass",
     },
-    // {
-    //     titleKey: "kravKids",
-    //     descKey: "kravKidsDesc",
-    //     image: "https://res.cloudinary.com/dkv4zgqvl/image/upload/c_fill,w_355,h_256/v1747139752/kids-kravmaga-class_ku26op.png",
-    // },
     // {
     //     titleKey: "mmaAdults",
     //     descKey: "mmaAdultsDesc",
