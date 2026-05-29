@@ -11,13 +11,17 @@ type ScheduleCell = {
 };
 
 enum ClassColors {
-  BJJ_ADULTS = 'bg-blue-900 text-white',
-  MMA_ADULTS = 'bg-gray-700 text-white',
-  MMA_KIDS = 'bg-red-400 text-white',
-  BJJ_KIDS = 'bg-yellow-500 text-black',
-  KRAV_ADULTS = 'bg-red-900 text-white',
-  KRAV_KIDS = 'bg-green-700 text-white',
-  OPEN_MAT = 'bg-purple-700 text-white'
+  GRAY = 'bg-[#D9D9D9] text-black',
+  NAVY = 'bg-[#09008E] text-white',
+  BLUE = 'bg-[#00B0F0] text-white',
+  LIGHT_BLUE = 'bg-[#9CC2E4] text-white',
+  BLACK = 'bg-[#000000] text-white',
+  RED = 'bg-[#FF0000] text-black',
+  YELLOW = 'bg-[#FFFF00] text-black',
+  GREEN = 'bg-[#2FB400] text-black',
+  BRIGHT_GREEN = 'bg-[#00FF00] text-black',
+  WHITE = 'bg-[#FFFFFF] text-black',
+  PURPLE = 'bg-[#D414D4] text-black'
 }
 
 
@@ -38,14 +42,18 @@ const ScheduleTable: React.FC = () => {
   const Legend = () => {
 
     const items = [
-      { label: `BJJ (${t('adlt')})`, color: ClassColors.BJJ_ADULTS },
-      { label: `BJJ (${t('kids')})`, color: ClassColors.BJJ_KIDS },
-      { label: `MMA (${t('adlt')})`, color: ClassColors.MMA_ADULTS },
-      { label: `MMA (${t('kids')})`, color: ClassColors.MMA_KIDS },
-      { label: `KRAV MAGA (${t('adlt')})`, color: ClassColors.KRAV_ADULTS },
-      { label: `KRAV MAGA (${t('kids')})`, color: ClassColors.KRAV_KIDS },
-      { label: `OPEN MAT (BJJ)`, color: ClassColors.OPEN_MAT },
-
+      { label: t('legend1'), color: ClassColors.GRAY },
+      { label: t('legend2'), color: ClassColors.GREEN },
+      { label: t('legend3'), color: ClassColors.BLUE },
+      { label: t('legend4'), color: ClassColors.YELLOW },
+      { label: t('legend5'), color: ClassColors.BRIGHT_GREEN },
+      { label: t('legend6'), color: ClassColors.RED },
+      { label: t('legend7'), color: ClassColors.NAVY },
+      { label: t('legend8'), color: ClassColors.NAVY },
+      { label: t('legend9'), color: ClassColors.LIGHT_BLUE },
+      { label: t('legend10'), color: ClassColors.BLACK },
+      { label: t('legend11'), color: ClassColors.PURPLE },
+      { label: t('legend12'), color: ClassColors.WHITE },
     ];
 
     return (

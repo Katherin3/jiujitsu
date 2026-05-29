@@ -56,7 +56,19 @@
         "kids": "Kids",
         "title": "Our Schedule",
         "intro": "We offer a variety of classes for all ages and skill levels. Whether you're a beginner or an experienced martial artist, we have something for you.",
-        "schedule": "Schedule"
+        "schedule": "Schedule",
+        "legend1": "Morning Adults Group",
+        "legend2": "Morning Kids Group",
+        "legend3": "Group for children aged 6–8 years",
+        "legend4": "Group for ages 3–5 (Pre Jiu-Jitsu)",
+        "legend5": "Experienced Kids Group (Ages 6–13)",
+        "legend6": "Beginner Kids Group (Ages 6–13)",
+        "legend7": "Beginner Group 14+/18+ (GI/NO-GI)",
+        "legend8": "Advanced Group 14+/18+ (GI/NO-GI)",
+        "legend9": "14+/18+ Group (Beginners & Advanced, NO-GI)",
+        "legend10": "Krav Maga 14+/18+ (Street Self-Defense)",
+        "legend11": "Open Mat 14+/18+",
+        "legend12": "Individual Training 6+, 14+, 18+"
     },
     "VideoBlock": {
         "gladius": "GLADIUS",

@@ -1,66 +1,66 @@
 [
     [
-      { "time": "08:30", "title": "MMA", "subtitle": "", "audience": "adlt", "color": "MMA_ADULTS" },
-      { "time": "08:30", "title": "BJJ GI", "subtitle": "", "audience": "adlt", "color": "BJJ_ADULTS" },
-      { "time": "08:30", "title": "MMA", "subtitle": "", "audience": "adlt", "color": "MMA_ADULTS" },
-      { "time": "08:30", "title": "BJJ GI", "subtitle": "", "audience": "adlt", "color": "BJJ_ADULTS" },
-      { "time": "08:30", "title": "MMA", "subtitle": "", "audience": "adlt", "color": "MMA_ADULTS" },
+      { "time": "08:30", "title": "BJJ GI", "subtitle": "", "audience": "adlt", "color": "GRAY" },
+      { "time": "08:30", "title": "BJJ GI", "subtitle": "", "audience": "adlt", "color": "GRAY" },
+      { "time": "08:30", "title": "BJJ GI", "subtitle": "", "audience": "adlt", "color": "GRAY" },
+      { "time": "08:30", "title": "BJJ GI", "subtitle": "", "audience": "adlt", "color": "GRAY" },
+      { "time": "08:30", "title": "BJJ GI", "subtitle": "", "audience": "adlt", "color": "GRAY" },
       { "time": "", "title": "", "subtitle": "", "audience": "", "color": "" },
-      { "time": " ", "title": "INDIVIDUAL", "subtitle": "", "audience": "", "color": "MMA_ADULTS" }
+      { "time": " ", "title": "INDIVIDUAL", "subtitle": "", "audience": "", "color": "WHITE" }
     ],
     [
-      { "time": "09:30", "title": "BJJ GI", "subtitle": "", "audience": "kids", "color": "BJJ_KIDS" },
+      { "time": "09:30", "title": "BJJ GI", "subtitle": "", "audience": "kids", "color": "GREEN" },
       { "time": "", "title": "", "subtitle": "", "audience": "", "color": "" },
-      { "time": "09:30", "title": "BJJ GI", "subtitle": "", "audience": "kids", "color": "BJJ_KIDS" },
-      { "time": "", "title": "", "subtitle": "", "audience": "", "color": "" },
-      { "time": "", "title": "", "subtitle": "", "audience": "", "color": "" },
-      { "time": "11:00", "title": "OPEN MAT", "subtitle": "", "audience": "adlt", "color": "OPEN_MAT" },
-      { "time": " ", "title": "INDIVIDUAL", "subtitle": "", "audience": "", "color": "MMA_ADULTS" }
-    ],
-    [
+      { "time": "09:30", "title": "BJJ GI", "subtitle": "", "audience": "kids", "color": "GREEN" },
       { "time": "", "title": "", "subtitle": "", "audience": "", "color": "" },
       { "time": "", "title": "", "subtitle": "", "audience": "", "color": "" },
-      { "time": "", "title": "", "subtitle": "", "audience": "", "color": "" },
-      { "time": "", "title": "", "subtitle": "", "audience": "", "color": "" },
-      { "time": "", "title": "", "subtitle": "", "audience": "", "color": "" },
-      { "time": "13:00", "title": "BJJ NO GI", "subtitle": "", "audience": "kids", "color": "BJJ_KIDS" },
-      { "time": " ", "title": "INDIVIDUAL", "subtitle": "", "audience": "", "color": "MMA_ADULTS" }
-    ],
-    [
-      { "time": "17:00", "title": "BJJ GI", "subtitle": "", "audience": "kids", "color": "BJJ_KIDS" },
-      { "time": "17:00", "title": "PRE JIU-JITSU", "subtitle": "(3-5 Year)", "audience": "", "color": "BJJ_KIDS" },
-      { "time": "17:00", "title": "KRAV MAGA", "subtitle": "", "audience": "kids", "color": "KRAV_KIDS" },
-      { "time": "17:00", "title": "PRE JIU-JITSU", "subtitle": "(3-5 Year)", "audience": "", "color": "BJJ_KIDS" },
-      { "time": "", "title": "", "subtitle": "", "audience": "", "color": "MMA_ADULTS" },
-      { "time": "14:00", "title": "PRE JIU-JITSU", "subtitle": "(3-5 Year)", "audience": "", "color": "BJJ_KIDS" },
-      { "time": " ", "title": "INDIVIDUAL", "subtitle": "", "audience": "", "color": "MMA_ADULTS" }
-    ],
-    [
-      { "time": "18:30", "title": "BJJ GI", "subtitle": "", "audience": "kids", "color": "BJJ_KIDS" },
-      { "time": "18:30", "title": "KRAV MAGA", "subtitle": "", "audience": "kids", "color": "KRAV_KIDS" },
-      { "time": "18:30", "title": "KRAV MAGA", "subtitle": "", "audience": "kids", "color": "KRAV_KIDS" },
-      { "time": "18:30", "title": "BJJ GI", "subtitle": "", "audience": "kids", "color": "BJJ_KIDS" },
-      { "time": "16:00", "title": "KRAV MAGA", "subtitle": "", "audience": "adlt", "color": "KRAV_ADULTS" },
-      { "time": "14:00", "title": "BJJ NO GI", "subtitle": "", "audience": "kids", "color": "BJJ_KIDS" },
-      { "time": " ", "title": "INDIVIDUAL", "subtitle": "", "audience": "", "color": "MMA_ADULTS" }
+      { "time": "11:00", "title": "OPEN MAT", "subtitle": "", "audience": "adlt", "color": "PURPLE" },
+      { "time": " ", "title": "INDIVIDUAL", "subtitle": "", "audience": "", "color": "WHITE" }
     ],
     [
       { "time": "", "title": "", "subtitle": "", "audience": "", "color": "" },
       { "time": "", "title": "", "subtitle": "", "audience": "", "color": "" },
-      { "time": "20:00", "title": "KRAV MAGA", "subtitle": "", "audience": "adlt", "color": "KRAV_ADULTS" },
       { "time": "", "title": "", "subtitle": "", "audience": "", "color": "" },
-      { "time": "18:00", "title": "BJJ GI/NO-GI", "subtitle": "Beginners", "audience": "adlt", "color": "BJJ_ADULTS" },
-      { "time": "17:00", "title": "BJJ NO-GI", "subtitle": "", "audience": "kids", "color": "BJJ_KIDS" },
-      { "time": " ", "title": "INDIVIDUAL", "subtitle": "", "audience": "", "color": "MMA_ADULTS" }
+      { "time": "", "title": "", "subtitle": "", "audience": "", "color": "" },
+      { "time": "", "title": "", "subtitle": "", "audience": "", "color": "" },
+      { "time": "13:00", "title": "BJJ NO GI", "subtitle": "", "audience": "kids", "color": "BRIGHT_GREEN" },
+      { "time": " ", "title": "INDIVIDUAL", "subtitle": "", "audience": "", "color": "WHITE" }
     ],
     [
-      { "time": "20:00", "title": "BJJ GI/NO-GI", "subtitle": "Beginners", "audience": "adlt", "color": "BJJ_ADULTS" },
-      { "time": "20:00", "title": "BJJ GI/NO-GI", "subtitle": "Advanced", "audience": "adlt", "color": "BJJ_ADULTS" },
-      { "time": "20:00", "title": "BJJ NO-GI", "subtitle": "", "audience": "adlt", "color": "BJJ_ADULTS" },
-      { "time": "20:00", "title": "BJJ GI/NO-GI", "subtitle": "Advanced", "audience": "adlt", "color": "BJJ_ADULTS" },
-      { "time": "20:00", "title": "BJJ NO-GI", "subtitle": "", "audience": "adlt", "color": "BJJ_ADULTS" },
+      { "time": "17:00", "title": "BJJ GI", "subtitle": "", "audience": "kids", "color": "BLUE" },
+      { "time": "16:30", "title": "PRE JIU-JITSU", "subtitle": "(3-5 Year)", "audience": "", "color": "YELLOW" },
+      { "time": "17:00", "title": "KRAV MAGA", "subtitle": "", "audience": "kids", "color": "BLUE" },
+      { "time": "16:30", "title": "PRE JIU-JITSU", "subtitle": "(3-5 Year)", "audience": "", "color": "YELLOW" },
       { "time": "", "title": "", "subtitle": "", "audience": "", "color": "" },
-      { "time": " ", "title": "INDIVIDUAL", "subtitle": "", "audience": "", "color": "MMA_ADULTS" }
+      { "time": "17:00", "title": "PRE JIU-JITSU", "subtitle": "(3-5 Year)", "audience": "", "color": "YELLOW" },
+      { "time": " ", "title": "INDIVIDUAL", "subtitle": "", "audience": "", "color": "WHITE" }
+    ],
+    [
+      { "time": "18:30", "title": "BJJ GI", "subtitle": "", "audience": "kids", "color": "BRIGHT_GREEN" },
+      { "time": "18:30", "title": "KRAV MAGA", "subtitle": "", "audience": "kids", "color": "RED" },
+      { "time": "18:30", "title": "KRAV MAGA", "subtitle": "", "audience": "kids", "color": "BRIGHT_GREEN" },
+      { "time": "18:30", "title": "BJJ GI", "subtitle": "", "audience": "kids", "color": "RED" },
+      { "time": "16:00", "title": "KRAV MAGA", "subtitle": "", "audience": "adlt", "color": "BLACK" },
+      { "time": "14:00", "title": "BJJ NO GI", "subtitle": "", "audience": "kids", "color": "RED" },
+      { "time": " ", "title": "INDIVIDUAL", "subtitle": "", "audience": "", "color": "WHITE" }
+    ],
+    [
+      { "time": "", "title": "", "subtitle": "", "audience": "", "color": "" },
+      { "time": "", "title": "", "subtitle": "", "audience": "", "color": "" },
+      { "time": "20:00", "title": "KRAV MAGA", "subtitle": "", "audience": "adlt", "color": "BLACK" },
+      { "time": "", "title": "", "subtitle": "", "audience": "", "color": "" },
+      { "time": "18:00", "title": "BJJ GI/NO-GI", "subtitle": "Beginners", "audience": "adlt", "color": "NAVY" },
+      { "time": "17:00", "title": "BJJ NO-GI", "subtitle": "", "audience": "kids", "color": "BLUE" },
+      { "time": " ", "title": "INDIVIDUAL", "subtitle": "", "audience": "", "color": "WHITE" }
+    ],
+    [
+      { "time": "20:00", "title": "BJJ GI/NO-GI", "subtitle": "Beginners", "audience": "adlt", "color": "NAVY" },
+      { "time": "20:00", "title": "BJJ GI/NO-GI", "subtitle": "Advanced", "audience": "adlt", "color": "NAVY" },
+      { "time": "20:00", "title": "BJJ NO-GI", "subtitle": "", "audience": "adlt", "color": "LIGHT_BLUE" },
+      { "time": "20:00", "title": "BJJ GI/NO-GI", "subtitle": "Advanced", "audience": "adlt", "color": "NAVY" },
+      { "time": "20:00", "title": "BJJ NO-GI", "subtitle": "", "audience": "adlt", "color": "LIGHT_BLUE" },
+      { "time": "", "title": "", "subtitle": "", "audience": "", "color": "" },
+      { "time": " ", "title": "INDIVIDUAL", "subtitle": "", "audience": "", "color": "WHITE" }
     ]
   ]
   
