@@ -79,7 +79,8 @@ const ScheduleTable: React.FC = () => {
         </p>
       </div>
       <Legend />
-      <table className="w-full border border-white text-center text-sm font-sans mt-3">
+      <div className="overflow-x-auto">
+      <table className="w-full min-w-[700px] border border-white text-center text-sm font-sans mt-3">
         <thead>
           <tr className="bg-black text-white">
             {days.map((day) => (
@@ -108,6 +109,7 @@ const ScheduleTable: React.FC = () => {
           ))}
         </tbody>
       </table>
+      </div>
     </section>
   );
 };
