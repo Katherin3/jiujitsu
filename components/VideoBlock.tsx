@@ -47,7 +47,7 @@ const VideoBlock = () => {
             <div className="relative z-10 flex flex-col items-center justify-center text-center px-6">
                 <Image
                     className="mx-auto mb-6 w-32 h-auto"
-                    src="https://res.cloudinary.com/dkd3pytpy/image/upload/c_pad,w_128,h_128/gladius_center_logo_obocvh_hqudeu?v=2"
+                    src="https://res.cloudinary.com/dkd3pytpy/image/upload/c_pad,w_128,h_128,ar_1:1/logo192_fjgzrl_skgtuq?v=2"
                     width={128}
                     height={128}
                     alt="Gladius"
