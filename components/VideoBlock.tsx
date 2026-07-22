@@ -29,7 +29,7 @@ const VideoBlock = () => {
                 className="absolute inset-0 w-full h-full object-cover z-0"
             >
                 <source
-                    src="https://res.cloudinary.com/dkd3pytpy/video/upload/lv_0_20260506143517_po6ptv.mp4"
+                    src="/videos/vide_bg_main_2.mp4"
                     type="video/mp4"
                 />
             </video>
@@ -47,7 +47,7 @@ const VideoBlock = () => {
             <div className="relative z-10 flex flex-col items-center justify-center text-center px-6">
                 <Image
                     className="mx-auto mb-6 w-32 h-auto"
-                    src="https://res.cloudinary.com/dkd3pytpy/image/upload/c_pad,w_128,h_128,ar_1:1/logo192_fjgzrl_skgtuq?v=2"
+                    src="/logo.png"
                     width={128}
                     height={128}
                     alt="Gladius"

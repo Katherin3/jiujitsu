@@ -39,7 +39,7 @@ export default function OurCoachesPage({
     {
       nameKey: "coach1Name",
       roleKey: "coach1Role",
-      src: "https://res.cloudinary.com/dkd3pytpy/image/upload/2_pa43aj",
+      src: "/image (1).jpg",
       altKey: "coach1Alt",
       descriptionKey: "coach1Description",
       highlights: [],

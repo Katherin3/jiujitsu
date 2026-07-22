@@ -25,7 +25,7 @@ const Contacts = () => {
                     <div className="w-full rounded-2xl overflow-hidden shadow-xl border border-white/10">
                         <a href="https://maps.app.goo.gl/rv7UvDRUg6bKnkhd8" target="_blank" title="Map" rel="noopener noreferrer">
                             <Image
-                                src="https://res.cloudinary.com/dkd3pytpy/image/upload/map_iv4hfi_rj8h6v"
+                                src="/image (1).png"
                                 alt="Map location"
                                 width={800}
                                 height={600}
@@ -88,14 +88,15 @@ const Contacts = () => {
                         <FaTimes size={32} />
                     </button>
 
-                    <div className="w-full max-w-xs sm:max-w-md md:max-w-lg aspect-[560/840] rounded-xl overflow-hidden shadow-2xl flex items-center justify-center">
-                        <iframe
-                            src="https://player.cloudinary.com/embed/?cloud_name=dkv4zgqvl&public_id=lvqiqdjdpughsh22lufp&profile=cld-default"
+                    <div className="w-full max-w-xs sm:max-w-md md:max-w-lg aspect-[9/16] rounded-xl overflow-hidden shadow-2xl flex items-center justify-center">
+                        <video
+                            src="/videos/location.mp4"
                             title="How to find us"
-                            className="w-full h-full"
-                            allow="autoplay; encrypted-media; picture-in-picture"
-                            allowFullScreen
-                        ></iframe>
+                            className="w-full h-full object-cover"
+                            controls
+                            autoPlay
+                            playsInline
+                        />
                     </div>
                 </div>
             )}

@@ -5,31 +5,31 @@ const classList = [
     {
         titleKey: "bjjKids",
         descKey: "bjjKidsDesc",
-        image: "https://res.cloudinary.com/dkd3pytpy/image/upload/c_fill,w_355,h_256/kids-bjj-class_mynw9t_dctt4h",
+        image: "/image (4).png",
         link: "/kids-program",
     },
     {
         titleKey: "bjjAdults",
         descKey: "bjjAdultsDesc",
-        image: "https://res.cloudinary.com/dkd3pytpy/image/upload/c_fill,w_355,h_256/adults-bjj-class_ajljxh_e2rn8x",
+        image: "/image (2).png",
         link: "/adults-bjj",
     },
     {
         titleKey: "bjjYangAdults",
         descKey: "bjjYangAdultsDesc",
-        image: "https://res.cloudinary.com/dkd3pytpy/image/upload/c_fill,w_355,h_256/adults-bjj-class_ajljxh_e2rn8x",
+        image: "/image (2).png",
         link: "/yang-adults-bjj",
     },
     {
         titleKey: "kravMaga",
         descKey: "kravMagaDesc",
-        image: "https://res.cloudinary.com/dkd3pytpy/image/upload/c_fill,w_355,h_256/adults-bjj-class_ajljxh_e2rn8x",
+        image: "/image (3).png",
         link: "/krav-maga",
     },
     {
         titleKey: "masterclass",
         descKey: "masterclassDesc",
-        image: "https://res.cloudinary.com/dkd3pytpy/image/upload/c_fill,w_355,h_256/adults-kravmaga-class_yzuvx5_njcpr8",
+        image: "/image (3).png",
         link: "/masterclass",
     },
     // {

@@ -37,8 +37,14 @@ export default function OurFacilityPage({
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
       {/* Hero image */}
-      <div className="relative w-full h-64 sm:h-80 lg:h-[1000px] overflow-hidden rounded-2xl border border-gray-700">
-          <Image src="https://res.cloudinary.com/dkd3pytpy/image/upload/5_mnedq3" width={1899} height={1792} alt="IBJJF"  />
+      <div className="relative w-full h-72 sm:h-96 lg:h-[700px] overflow-hidden rounded-2xl border border-gray-700">
+          <Image
+            src="/gallery/6.jpg"
+            alt="Facility"
+            fill
+            sizes="100vw"
+            className="object-cover object-center"
+          />
       </div>
 
       {/* Title and text */}
@@ -55,7 +61,7 @@ export default function OurFacilityPage({
       <div className="grid grid-cols-3 gap-4">
         <div className="relative aspect-[4/3] overflow-hidden rounded-xl border border-gray-700">
           <Image
-            src="https://res.cloudinary.com/dkd3pytpy/image/upload/1jpg_vrtaip"
+            src="/gallery/5.jpg"
             alt={t('matAreaTitle')}
             fill
             sizes="(max-width: 768px) 33vw, 33vw"
@@ -64,7 +70,7 @@ export default function OurFacilityPage({
         </div>
         <div className="relative aspect-[4/3] overflow-hidden rounded-xl border border-gray-700">
           <Image
-            src="https://res.cloudinary.com/dkd3pytpy/image/upload/3_iqmfbj"
+            src="/gallery/4.jpg"
             alt={t('changingRoomsTitle')}
             fill
             sizes="(max-width: 768px) 33vw, 33vw"
@@ -73,7 +79,7 @@ export default function OurFacilityPage({
         </div>
         <div className="relative aspect-[4/3] overflow-hidden rounded-xl border border-gray-700">
           <Image
-            src="https://res.cloudinary.com/dkd3pytpy/image/upload/7_iovujj"
+            src="/gallery/7.jpg"
             alt={t('extrasTitle')}
             fill
             sizes="(max-width: 768px) 33vw, 33vw"
