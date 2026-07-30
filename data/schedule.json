@@ -1,10 +1,10 @@
 [
     [
-      { "time": "08:30", "title": "BJJ GI", "subtitle": "", "audience": "adlt", "color": "GRAY" },
-      { "time": "08:30", "title": "BJJ GI", "subtitle": "", "audience": "adlt", "color": "GRAY" },
-      { "time": "08:30", "title": "BJJ GI", "subtitle": "", "audience": "adlt", "color": "GRAY" },
-      { "time": "08:30", "title": "BJJ GI", "subtitle": "", "audience": "adlt", "color": "GRAY" },
-      { "time": "08:30", "title": "BJJ GI", "subtitle": "", "audience": "adlt", "color": "GRAY" },
+      { "time": "08:30", "title": "BJJ GI", "subtitle": "", "audience": "adlt", "color": "BLUE" },
+      { "time": "08:30", "title": "BJJ GI", "subtitle": "", "audience": "adlt", "color": "BLUE" },
+      { "time": "08:30", "title": "BJJ GI", "subtitle": "", "audience": "adlt", "color": "BLUE" },
+      { "time": "08:30", "title": "BJJ GI", "subtitle": "", "audience": "adlt", "color": "BLUE" },
+      { "time": "08:30", "title": "BJJ GI", "subtitle": "", "audience": "adlt", "color": "BLUE" },
       { "time": "", "title": "", "subtitle": "", "audience": "", "color": "" },
       { "time": " ", "title": "INDIVIDUAL", "subtitle": "", "audience": "", "color": "WHITE" }
     ],
@@ -24,6 +24,15 @@
       { "time": "", "title": "", "subtitle": "", "audience": "", "color": "" },
       { "time": "", "title": "", "subtitle": "", "audience": "", "color": "" },
       { "time": "13:00", "title": "BJJ NO GI", "subtitle": "", "audience": "kids", "color": "BRIGHT_GREEN" },
+      { "time": " ", "title": "INDIVIDUAL", "subtitle": "", "audience": "", "color": "WHITE" }
+    ],
+    [
+      { "time": "15:30", "title": "PRE JIU-JITSU B", "subtitle": "(3-5 Year)", "audience": "", "color": "ORANGE" },
+      { "time": "", "title": "", "subtitle": "", "audience": "", "color": "" },
+      { "time": "15:30", "title": "PRE JIU-JITSU B", "subtitle": "(3-5 Year)", "audience": "", "color": "ORANGE" },
+      { "time": "", "title": "", "subtitle": "", "audience": "", "color": "" },
+      { "time": "15:30", "title": "PRE JIU-JITSU B", "subtitle": "(3-5 Year)", "audience": "", "color": "ORANGE" },
+      { "time": "", "title": "", "subtitle": "", "audience": "", "color": "" },
       { "time": " ", "title": "INDIVIDUAL", "subtitle": "", "audience": "", "color": "WHITE" }
     ],
     [

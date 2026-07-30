@@ -11,17 +11,18 @@ type ScheduleCell = {
 };
 
 enum ClassColors {
-  GRAY = 'bg-[#D9D9D9] text-black',
-  NAVY = 'bg-[#09008E] text-white',
-  BLUE = 'bg-[#00B0F0] text-white',
-  LIGHT_BLUE = 'bg-[#9CC2E4] text-white',
+  GRAY = 'bg-[#808080] text-white',
+  NAVY = 'bg-[#000098] text-white',
+  BLUE = 'bg-[#00B0F0] text-black',
+  LIGHT_BLUE = 'bg-[#32CCFE] text-black',
   BLACK = 'bg-[#000000] text-white',
-  RED = 'bg-[#FF0000] text-black',
+  RED = 'bg-[#FF0000] text-white',
   YELLOW = 'bg-[#FFFF00] text-black',
-  GREEN = 'bg-[#2FB400] text-black',
-  BRIGHT_GREEN = 'bg-[#00FF00] text-black',
+  GREEN = 'bg-[#2FB500] text-black',
+  BRIGHT_GREEN = 'bg-[#00FF01] text-black',
   WHITE = 'bg-[#FFFFFF] text-black',
-  PURPLE = 'bg-[#D414D4] text-black'
+  PURPLE = 'bg-[#D314D4] text-black',
+  ORANGE = 'bg-[#EE6F4C] text-black'
 }
 
 
@@ -53,7 +54,8 @@ const ScheduleTable: React.FC = () => {
       { label: t('legend9'), color: ClassColors.LIGHT_BLUE },
       { label: t('legend10'), color: ClassColors.BLACK },
       { label: t('legend11'), color: ClassColors.PURPLE },
-      { label: t('legend12'), color: ClassColors.WHITE },
+    { label: t('legend12'), color: ClassColors.WHITE },
+    { label: t('legend13'), color: ClassColors.ORANGE },
     ];
 
     return (
@@ -80,11 +82,11 @@ const ScheduleTable: React.FC = () => {
       </div>
       <Legend />
       <div className="overflow-x-auto">
-      <table className="w-full min-w-[700px] border border-white text-center text-sm font-sans mt-3">
+      <table className="w-full min-w-[700px] border border-black text-center text-sm font-sans mt-3">
         <thead>
           <tr className="bg-black text-white">
             {days.map((day) => (
-              <th key={day} className="p-2 border border-white text-xs sm:text-sm font-bold tracking-wide uppercase">
+              <th key={day} className="p-2 border border-black text-xs sm:text-sm font-bold tracking-wide uppercase">
                 {day}
               </th>
             ))}
@@ -94,7 +96,7 @@ const ScheduleTable: React.FC = () => {
           {schedule.map((row, rowIndex) => (
             <tr key={rowIndex}>
               {row.map((cell, colIndex) => (
-                <td key={colIndex} className={`p-2 border border-white ${cell.color}`}                >
+                <td key={colIndex} className={`p-2 border border-black ${cell.color || 'bg-white'}`}>
                   {cell.time && (
                     <div className="flex flex-col items-center justify-center text-[0.65rem] sm:text-sm font-semibold leading-tight uppercase">
                       <time className="text-[1.0rem] font-bold mb-1">{cell.time}</time>
